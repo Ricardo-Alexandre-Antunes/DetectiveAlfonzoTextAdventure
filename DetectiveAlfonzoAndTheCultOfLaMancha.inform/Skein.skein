@@ -3,7 +3,87 @@
   <generator>Windows Inform 10.1.2</generator>
   <item nodeId="node-1">
     <command xml:space="preserve">DetectiveAlfonzoAndTheCultOfLaMancha</command>
-    <result xml:space="preserve"></result>
+    <result xml:space="preserve">Detective Afonzo and The Cult of La Mancha&#x000A;An Interactive Fiction by Alien Cat Studios&#x000A;Release 1 / Serial number 260524 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Office&#x000A;You can see a desk, a closet (in which are a pile of paper and a NSFW Magazine) and a rack (on which are a green hat, a red hat, a black hat, a tiara and a trophy) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+      <child nodeId="node-2"/>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">clean the desk</command>
+    <result xml:space="preserve">There we go, I got rid of all the junk now!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+      <child nodeId="node-4"/>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">clean the desk</command>
+    <result xml:space="preserve">The desk is already pretty clean!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">cleaning the desk</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">examine desk</command>
+    <result xml:space="preserve">My desk is a mess... I really need to clean this up...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">examine desk</command>
+    <result xml:space="preserve">My desk is a mess... I really need to clean this up...&#x000A;&#x000A;On the desk are a doctor's note, an old newspaper and a tablet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">examine desk</command>
+    <result xml:space="preserve">My desk is a mess... I really need to clean this up...&#x000A;&#x000A;On the desk are a doctor's note, an old newspaper and a tablet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">examine the desk</command>
+    <result xml:space="preserve">My desk is a mess... I really need to clean this up...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">clean the desk</command>
+    <result xml:space="preserve">There we go, I got rid of all the junk now!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">clean the desk</command>
+    <result xml:space="preserve">There we go, I got rid of all the junk now!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">examine the desk</command>
+    <result xml:space="preserve">My desk is spotless now!&#x000A;&#x000A;On the desk are a doctor's note, an old newspaper and a tablet.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
