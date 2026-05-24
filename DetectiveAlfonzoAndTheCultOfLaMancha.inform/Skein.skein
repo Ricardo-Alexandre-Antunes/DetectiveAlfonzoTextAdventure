@@ -3,7 +3,7 @@
   <generator>Windows Inform 10.1.2</generator>
   <item nodeId="node-1">
     <command xml:space="preserve">DetectiveAlfonzoAndTheCultOfLaMancha</command>
-    <result xml:space="preserve">You wake up from a quick nap in your office. You look around - you clearly haven't cleaned it in a while. How could you, with the biggest case you've ever faced still unsolved?&#x000A;&#x000A;Detective Afonzo and The Cult of La Mancha&#x000A;An Interactive Fiction by Alien Cat Studios&#x000A;Release 1 / Serial number 260524 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Office&#x000A;My office, where I've solved so many crimes... but now I face my biggest mystery.&#x000A;&#x000A;You can see a desk, a closet (in which are a pile of paper and a NSFW Magazine) and a rack (on which are a green hat, a red hat, a black hat, a tiara and a trophy) here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You wake up from a quick nap in your office. You look around - you clearly haven't cleaned it in a while. How could you, with the biggest case you've ever faced still unsolved?&#x000A;&#x000A;Detective Afonzo and The Cult of La Mancha&#x000A;An Interactive Fiction by Alien Cat Studios&#x000A;Release 1 / Serial number 260524 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Office&#x000A;My office, where I've solved so many crimes... but now I face my biggest mystery.&#x000A;&#x000A;You can see a desk, a closet and a rack (on which are a green hat, a red hat, a black hat, a tiara and a trophy) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -79,12 +79,28 @@
   </item>
   <item nodeId="node-14">
     <command xml:space="preserve">examine doctor's note</command>
-    <result xml:space="preserve">A note from an appointment that reads: "severe case of amnesia, causing a memory loss of the past 2 weeks.". It's all a fog to me.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You see nothing special about the doctor's note.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
+      <child nodeId="node-23"/>
       <child nodeId="node-15"/>
     </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">examine old newspaper</command>
+    <result xml:space="preserve">A newspaper from 2 weeks ago with a disturbing front page... "Corruption may win - Jo&#x00E3;o and Maria Alfonzo found dead in a dark alley". How can't I remember that day?&#x000A;...&#x000A;My parents were pretty important in stopping the corruption in this city... I'm sure a lot of people would want them dead. It's not surprising this is in the cover of the newspaper... but I will find out who did this!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">read doctor's note</command>
+    <result xml:space="preserve">You see nothing special about the doctor's note.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-15">
     <command xml:space="preserve">go outside</command>
