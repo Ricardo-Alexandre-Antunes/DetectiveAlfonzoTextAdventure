@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Translating the Source</title>
+    <title><Actions</title>
     <style type="text/css">
         <!--
         /* The default font (family) and size */
@@ -865,39 +865,54 @@
 </head>
 <body>
     <!--CONTENT BEGINS-->
-    <!--BANNER BEGINS-->
-    <table cellspacing="3" border="0" width="100%">
-        <tr id="surround0">
-            <td style="width:100%">
-                <!--HEADING BEGINS-->
-                <div class="headingpanellayout headingpanelsucceeded">
-                    <div class="headingtext">
-                        <span class="headingpaneltext">Report on Translation: Succeeded</span></div>
-                    <div class="headingrubric">
-                        <span class="headingpanelrubric">Produced by Inform 10.1.2</span></div>
-                </div>
-                <!--HEADING ENDS-->
-
-            </td>
-        </tr>
-    </table>
-    <!--BANNER ENDS-->
-    <table border="0" cellspacing="4" cellpadding="0" width=100%>
+    <table cellspacing="3" border="0" class="elementbanner">
         <tr>
-            <td align="left" valign="top" width="110">
-                <img src=inform:/outcome_images/ni_succeeded@2x.png border=1 width=100 height=100>&nbsp;&nbsp;&nbsp;&nbsp;
+            <td valign="top" align="left">
+                <div id="minibox1_1" class="smallelementbox">
+                    <a class="elementlink" title="Details" href="../Actions.html"><span class="elementtext">^</span></a><div class="elementnumber">
+                        <span class="elementnumbertext">1
+                        </span></div>
+                </div>
+
             </td>
-            <td align="left" valign="top">
-                <!--HEADNOTE-->
-                <p style="margin-top:0;">(Each time <b>Go</b> or <b>Replay</b> is clicked, Inform tries to translate the source text into a working story, and updates this report.)</p>
-                <!--PROBLEMS BEGIN-->
-                <p>  The 466-word source text has successfully been translated into a world with 8 rooms and 14 things, and the index has been brought up to date.</p>
-                <!--PROBLEMS END-->
+            <td style="width:100%;" align="left" valign="top">
+                <p style="margin-top:0px;padding-top:0px;margin-bottom:0px;padding-bottom:0px;line-height:150%;"><b>Details</b> &mdash; 
+                A single action in detail.<br>
+                <i>About the action rulebooks&nbsp;&nbsp;<a href=inform:/doc176.html><img border=0 src=inform:/doc_images/help.png></a></i></p>
 
             </td>
         </tr>
     </table>
-    <!--FOOTNOTE-->
+
+    <hr>
+    <p><b>From the extension Standard Rules - Standard actions which move the actor</b><br>going&nbsp;<a href=7_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, entering&nbsp;<a href=8_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, <b>exiting</b>, getting off&nbsp;<a href=10_A.html><img border=0 src=inform:/doc_images/Beneath.png></a></p>
+    <hr>
+    <p><b>Exiting </b> (<i>past tense</i> exited): applying to nothing</p>
+    <p>Whereas the going action allows
+    people to move from one location to another in the model world, and the
+    entering action is for movement deeper inside the objects in a location,
+    the exiting action is for movement back out towards the main floor area.
+    Climbing out of a cupboard, for instance, is an exiting action. Exiting
+    when already in the main floor area of a room with a map connection to
+    the outside is converted to a going action. Finally, note that whereas
+    entering works for either containers or supporters, exiting is purely for
+    getting oneself out of containers: if the actor is on top of a supporter
+    instead, an exiting action is converted to the getting off action.</p>
+    <hr>
+    <p><b>Typed commands leading to this action</b></p>
+    <p>&quot;get out/off/down/up&quot; - <i>exiting</i>&nbsp;<a href=Details/9_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;stand&quot; - <i>exiting</i>&nbsp;<a href=Details/9_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;stand up&quot; - <i>exiting</i>&nbsp;<a href=Details/9_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;exit&quot; - <i>exiting</i>&nbsp;<a href=Details/9_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    </p>
+    <p><b>Named values belonging to this action</b></p>
+    <p class="tightin2">container exited from - <i>object</i></p>
+    <p><b>Rules controlling this action</b></p>
+    <p><p class="indentin2">set action variables for&nbsp;&nbsp;&nbsp;&nbsp;<i>exiting</i>&nbsp;&nbsp;<span class="indexdullred">standard set exiting variables rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('standard set exiting variables rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The standard set exiting variables rule response (Setting action variables rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+    <p class="indentin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<span class="indexdullred">convert exit into go out rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('convert exit into go out rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The convert exit into go out rule response (check exiting rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<span class="indexdullred">can't exit when not inside anything rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('can[=0x0027=]t exit when not inside anything rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The can[=0x0027=]t exit when not inside anything rule response (check exiting rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<span class="indexdullred">can't exit closed containers rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('can[=0x0027=]t exit closed containers rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The can[=0x0027=]t exit closed containers rule response (check exiting rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<span class="indexdullred">convert exit into get off rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('convert exit into get off rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The convert exit into get off rule response (check exiting rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+    <p class="indentin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<span class="indexdullred">standard exiting rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('standard exiting rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The standard exiting rule response (carry out exiting rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+    <p class="indentin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<span class="indexdullred">standard report exiting rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('standard report exiting rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The standard report exiting rule response (report exiting rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<span class="indexdullred">describe room emerged into rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('describe room emerged into rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The describe room emerged into rule response (report exiting rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+    </p>
 
     <!--CONTENT ENDS-->
 </body>
