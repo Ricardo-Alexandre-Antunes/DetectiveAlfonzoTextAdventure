@@ -3,13 +3,14 @@
   <generator>Windows Inform 10.1.2</generator>
   <item nodeId="node-1">
     <command xml:space="preserve">DetectiveAlfonzoAndTheCultOfLaMancha</command>
-    <result xml:space="preserve">You wake up from a quick nap in your office. You look around - you clearly haven't cleaned it in a while. How could you, with the biggest case you've ever faced still unsolved?&#x000A;&#x000A;Detective Afonzo and The Cult of La Mancha&#x000A;An Interactive Fiction by Alien Cat Studios&#x000A;Release 1 / Serial number 260524 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Office&#x000A;My office, where I've solved so many crimes... but now I face my biggest mystery.&#x000A;&#x000A;You can see a desk, a closet and a rack (on which are a green hat, a red hat, a black hat, a tiara and a trophy) here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You wake up from a quick nap in your office. You look around - you clearly haven't cleaned it in a while. How could you, with the biggest case you've ever faced still unsolved?&#x000A;&#x000A;Detective Afonzo and The Cult of La Mancha&#x000A;An Interactive Fiction by Alien Cat Studios&#x000A;Release 1 / Serial number 260525 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Office&#x000A;My office, where I've solved so many crimes... but now I face my biggest mystery.&#x000A;&#x000A;You can see a desk, a closet (closed) and a rack (on which are a green hat, a red hat, a black hat, a tiara and a trophy) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-7"/>
       <child nodeId="node-8"/>
+      <child nodeId="node-31"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -79,7 +80,7 @@
   </item>
   <item nodeId="node-14">
     <command xml:space="preserve">examine doctor's note</command>
-    <result xml:space="preserve">You see nothing special about the doctor's note.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">A note from an appointment that reads: "severe case of amnesia, causing a memory loss of the past 2 weeks.". It's all a fog to me.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -89,7 +90,7 @@
   </item>
   <item nodeId="node-23">
     <command xml:space="preserve">examine old newspaper</command>
-    <result xml:space="preserve">A newspaper from 2 weeks ago with a disturbing front page... "Corruption may win - Jo&#x00E3;o and Maria Alfonzo found dead in a dark alley". How can't I remember that day?&#x000A;...&#x000A;My parents were pretty important in stopping the corruption in this city... I'm sure a lot of people would want them dead. It's not surprising this is in the cover of the newspaper... but I will find out who did this!&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">My parents were pretty important in stopping the corruption in this city... I'm sure a lot of people would want them dead. It's not surprising this is in the cover of the newspaper... but I will find out who did this!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -98,7 +99,61 @@
   </item>
   <item nodeId="node-24">
     <command xml:space="preserve">read doctor's note</command>
-    <result xml:space="preserve">You see nothing special about the doctor's note.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">There are more comments here... why did they perform an x-ray on me? I can't understand it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">examine rack</command>
+    <result xml:space="preserve">All of my hats are here, and my trophy as well.&#x000A;&#x000A;On the rack are a green hat, a red hat, a black hat, a tiara and a trophy.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">wear tiara</command>
+    <result xml:space="preserve">(first taking the tiara)&#x000A;Nobody can question my fashion! I will walk out with a tiara if I want!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">wear red hat</command>
+    <result xml:space="preserve">(first taking the red hat)&#x000A;High fashion for Alfonzo Sapienze! This looks good on me.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a red hat&#x000A;  a tiara&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">leave the office</command>
+    <result xml:space="preserve">I only understood you as far as wanting to leave.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">The 68th Street&#x000A;The 68th Street is busy, noisy, and covered in advertisements. Just another normal day in the city.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -199,6 +254,12 @@
   <item nodeId="node-11">
     <command xml:space="preserve">examine the desk</command>
     <result xml:space="preserve">My desk is spotless now!&#x000A;&#x000A;On the desk are a doctor's note, an old newspaper and a tablet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">It's chilly outside. I should probably wear a hat.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>

@@ -23,6 +23,9 @@ Understand "talk to [someone]" as talking to.
 Understand "speak to [someone]" as talking to.
 Understand "ask [someone]" as talking to.
 
+A hat is a kind of thing.
+A hat can be worn or unworn.
+A hat is usually unworn.
 
 
 [ Rooms ]
@@ -88,6 +91,15 @@ The printed name of the Daniel Louis-Campbell Park is "Daniel Louis-Campbell Par
 
 [ Office ]
 
+worn-hat is a truth state that varies.
+worn-hat is false.
+
+worn-tiara is a truth state that varies.
+worn-tiara is false.
+
+knows-location is a truth state that varies.
+knows-location is false.
+
 A desk is in the office.
 The description of the desk is
 	"My desk is a mess... I really need to clean this up..."
@@ -144,22 +156,56 @@ Instead of opening the closet:
 		
 Instead of reading the pile of paper:
 	say "The first case happened a week ago... they were found dead in a trash can. According to the police report, they had very peculiar injuries... it looks like they fought with the attacker.";
-	say "As for the second case, it was just delivered to me. The body is still in the courthouse, so I should head there soon. Judge Richard was found dead in his chambers found with a knife in his head. A judge can get a lot of enemies, but he was only working on one case at the time...";
+	say "As for the second case, it was just delivered to me. The body is still in the courthouse, so I should head there soon. Judge Richard was found dead in his chambers found with a knife in his head. A judge can get a lot of enemies, but he was only working on one case at the time... I should go there.";
 	
 Instead of reading the NSFW Magazine:
 	say "Well well well... those sure are some curves I can get behind. Meoooow!";
+	
+
 
 A rack is in the office.
+The description of the rack is "All of my hats are here, and my trophy as well.".
 
-A green hat is on the rack.
+A green hat is a hat on the rack.
+The description of the green hat is "This hat is perfect for St. Patrick celebrations.".
 
-A red hat is on the rack.
+A red hat is a hat on the rack.
+The description of the red hat is "I think I've worn this hat once... and a bull came after me.".
 
-A black hat is on the rack.
+A black hat is a hat on the rack.
+The description of the black hat is "I look like Professor Layton now!".
 
-A tiara is on the rack.
+A tiara is a hat on the rack.
+The description of the tiara is "It shines so brightly... more than every other hat...".
 
 A trophy is on the rack.
+The description of the trophy is "I was so good at Mark Kart 64... winning this tournament was a breeze!"
+
+Instead of wearing a hat:
+	now worn-hat is true;
+	now worn-tiara is false;
+	now every thing carried by the player is unworn;
+	now the noun is worn;
+	say "High fashion for Alfonzo Sapienze! This looks good on me.";
+	
+Instead of wearing the tiara:
+	now worn-hat is true;
+	now worn-tiara is true;
+	now every hat carried by the player is unworn;
+	now the noun is worn;
+	say "Nobody can question my fashion! I will walk out with a tiara if I want!";
+	
+Instead of going:
+	if knows-location is false:
+		say "I could leave, but to where? I should probably take a look at my cases first.";
+	otherwise:
+		if worn-hat is false:
+			say "It's chilly outside. I should probably wear a hat.";
+		otherwise:
+			continue the action.
+
+
+
 
 [ All AI From here ]
 
