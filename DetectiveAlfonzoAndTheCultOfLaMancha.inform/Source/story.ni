@@ -103,7 +103,7 @@ Instead of reading the pile of paper:
 	say "As for the second case, it was just delivered to me. The body is still in the courthouse, so I should head there soon. Judge Richard was found dead in his chambers found with a knife in his head. A judge can get a lot of enemies, but he was only working on one case at the time...";
 	
 Instead of reading the NSFW Magazine:
-	say "Well well well... those sure are some curves I can get behind. Meoooow!"
+	say "Well well well... those sure are some curves I can get behind. Meoooow!";
 
 A rack is in the office.
 
