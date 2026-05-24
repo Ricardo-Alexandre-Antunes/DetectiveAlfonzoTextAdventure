@@ -28,61 +28,82 @@ Understand "ask [someone]" as talking to.
 [ Rooms ]
 
 The Office is a room. Outside is The 68th Street.
-The description of the office is "My office, where I've solved so many crimes... but now I face my biggest mystery."
+The description of the office is "My dusty old office, I've solved so many crimes here... but none like the mystery im facing now."
 
 The 68th Street is a room.
-[ AI ] The description of the 68th Street is "The 68th Street is busy, noisy, and covered in advertisements. Just another normal day in the city.".
+The description of the 68th Street is "68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.".
 
 The St Miku Crossing is a room. The 68th Street is west.
-[ AI ] The description of the St Miku Crossing is "A colorful crossing surrounded by shops, screens, and people moving in every direction.".
+The description of the St Miku Crossing is "St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.".
 
 The Afonso Sapienze's Apartment is a room. Outside is the St Miku Crossing.
-[ AI ] The description of the Afonso Sapienze's Apartment is "Your apartment. It is not much, but at least it is yours.".
+The description of the Afonso Sapienze's Apartment is "My apartment... i don't even know why i own this place, i barely use it."".
 
 The Afonso Sapienze's Parent's Apartment is a room. Outside is the St Miku Crossing.
-[ AI ] The description of the Afonso Sapienze's Parents' Apartment is
-	"The apartment is painfully quiet. The kind of quiet that does not feel peaceful, but abandoned.
+The description of the Afonso Sapienze's Parents' Apartment is
+	"This place feels different than before, it's strange, physically it still looks the same, but it feels like there's a gaping hole where it's soul
+used to be.
 
-Everything is still mostly where it should be, almost frozen in time. The furniture, the old family photos, the smell of dust and closed windows... it all makes your chest feel heavier.
+It's missing its color, it's personality... it's nothing but an empty husk now.
 
-This used to be a home. Now it feels like evidence.".
+I should have a look around, but not now, I don't think i'm ready for this yet...".
 
 
 
 The Justice Avenue is a room. The St Miku Crossing is north.
-[ AI ] The description of the Justice Avenue is
-	"Justice Avenue is wider, cleaner, and quieter than most streets in the city. There are fewer advertisements here, as if even the corporations are afraid to be too loud near the court.
+The description of the Justice Avenue is
+	"Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.
 
-People in expensive suits walk past you with briefcases, phones, and serious expressions. The street clearly belongs to the rich, but not completely. A few homeless people sit near the walls and corners, ignored by almost everyone who passes.
+The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.
 
-To the east, you can see the entrance to Daniel Louis-Campbell Park, but the gate is closed. To the south stands the entrance to El Court' Americano. To the west, the street continues toward Bingo Street.".
+They don't even notice me walk by.
+
+There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court' Americano is and to the west, towards Bingo Street.".
 
 The Bingo Street is a room. The Justice Avenue is east.
-[ AI ] The description of Bingo Street is "Bingo Street is loud, colorful, and chaotic. The sound of machines and distant shouting fills the air.".
+ The description of Bingo Street is "Bingo Street is like a louder, more run down version of 68th Street, if that's even possible. The atmosphere feels similar, but the people don't, they feel more like the ones on Justice Avenue, only without all the money. 
+
+The cops don't usually come here, they're paid well not to... damn bastards. 
+
+For some reason they decided to build a damn company here, i'd go in but the place is in repairs from what it looks like, about time if ya ask me, thought it'd be better if the people got that treatment first, it's been needed for a long ass time.".
 
 The El Court' Americano is a room. Outside is the Justice Avenue.
-[ AI ] The printed name of the El Court Americano is "El Court' Americano - Entrance".
-[ AI ] The description of the El Court Americano is 
-	"The courtroom entrance is enormous and strangely beautiful, mixing classical architecture with cold futurism. White marble covers the floor and walls, while brutalist concrete pillars rise sharply toward the ceiling. Huge LED panels glow above the room, bathing the semi-classical statues and minimalist furniture in artificial light.
+The printed name of the El Court Americano is "El Court' Americano - Main Hall".
+The description of the El Court Americano is 
+	"I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day. 
 
-Crowds of people move from one side to the other, almost all carrying books, documents, or tablets. Some speak quickly into phones, others argue in low voices, and a few hurry past without even looking at you. It is impossible to find even a second of silence here.
+The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.
 
-Behind a polished counter stands a receptionist, apparently the only person in the room who might actually answer a question.".
+People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.
+
+On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.
+
+There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.".
 
 
 
 The Suspicious Alley is a room. The El Court' Americano is west.
-[ AI ] The description of the Suspicious Alley is "A narrow alley hidden from the main streets. The air feels colder here.".
+The description of the Suspicious Alley is "The door lead to a narrow, stinking alleyway, isolated from the rest of the city.
+
+There's rats all over and spiders crawling on the walls. There is no way to go but forwards, to the darkness.".
 
 
 The Palace is a room.
 The printed name of the Palace is "Tiara Palace".
-[ AI ] The description of the Palace is "Tiara Palace rises above the street with ridiculous elegance.".
+The description of the Palace is "Of all the places i expected to find here, a damn palace is the last one.
+It doesn't really look like a palace, it's more like a rainbow, glittery nightclub stuck at the end of a long, narrow alleyway. 
+
+It has a small little entrance sitting at the bottom of a facade that still manages to be imposing desipite its proportions.
+
+There's a bouncer dressed like a clown waiting at the door, it doesn't look like he's gonna let me in, not while looking like this i'm guessin'.".
+
 Outside is the Suspicious Alley.
 
 The Daniel Louis-Campbell Park is a room.
 The printed name of the Daniel Louis-Campbell Park is "Daniel Louis-Campbell Park".
-[ AI ] The description of the Daniel Louis-Campbell Park is "The park is closed for construction, so you probably should not be here yet.".
+The description of the Daniel Louis-Campbell Park is "I used to come here as a kid, there was a playground further in where mom and dad used to play catch with me. 
+
+It looks like it's closed for renovations. No way i'm getting in.".
 
 [ Objects ]
 
