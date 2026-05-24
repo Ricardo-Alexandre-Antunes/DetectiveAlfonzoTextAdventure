@@ -1,11 +1,17 @@
 "Detective Afonzo and The Cult of La Mancha" by Alien Cat Studios
 
+When play begins:
+	say "You wake up from a quick nap in your office. You look around - you clearly haven't cleaned it in a while. How could you, with the biggest case you've ever faced still unsolved?"
+
+[ Custom Actions ]
+
 cleaning is an action applying to one thing.
 Understand "clean [something]" as cleaning.
 
 [ Rooms ]
 
 The Office is a room. Outside is The 68th Street
+The description of the office is: "My office, where I've solved so many crimes... but now I face my biggest mystery."
 
 The 68th Street is a room.
 
@@ -30,20 +36,24 @@ The description of the desk is
 	"My desk is a mess... I really need to clean this up..."
 	
 
-
 A doctor's note is on the desk. The doctor's note is undescribed.
 
 An old newspaper is on the desk. The old newspaper is undescribed.
 
 A tablet is on the desk. The tablet is undescribed.
 
+[ Cleaning up the desk allows the player to see what is on it ]
+
 Instead of rubbing the desk:
 	if the doctor's note is undescribed:
 		say "There we go, I got rid of all the junk now!";
 		now the description of the desk is "My desk is spotless now!";
 		now the doctor's note is not undescribed;
+		now the description of the doctor's note is "A note from an appointment that reads: 'severe case of amnesia, causing a memory loss of the past 2 weeks.'. It's all a fog to me."
 		now the old newspaper is not undescribed;
+		now the description of the old newspaper is "A newspaper from 2 weeks ago with a disturbing front page... 'Corruption may win - João and Maria Alfonzo found dead in a dark alley'. How can't I remember that day?"
 		now the tablet is not undescribed;
+		now the description of the tablet is "A tablet where I keep my diary... but for some reason the past 2 weeks have been erased... precisely the time I lost my memory..."
 	else:
 		say "The desk is already pretty clean!"
 
