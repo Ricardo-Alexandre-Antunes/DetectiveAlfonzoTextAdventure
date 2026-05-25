@@ -7,6 +7,7 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
+      <child nodeId="node-104"/>
       <child nodeId="node-2"/>
       <child nodeId="node-72"/>
       <child nodeId="node-7"/>
@@ -15,6 +16,768 @@
       <child nodeId="node-31"/>
       <child nodeId="node-101"/>
     </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">Open closet</command>
+    <result xml:space="preserve">What a mess... well, look what we have here... this pile of paper has my current cases, and it's piling up... I should take a look at these.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">Look at cases</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">Look at pile of paper</command>
+    <result xml:space="preserve">There are 2 cases here. Another couple just like my parents, found in Bingo Street... and a judge killed in his own chambers. He was working on some case about a cosmetics company.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">Go to Bingo Street</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">Travel to Bingo Street</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">Look at desk</command>
+    <result xml:space="preserve">My desk is a mess... I really need to clean this up...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">Clean desk</command>
+    <result xml:space="preserve">There we go, I got rid of all the junk now!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">Dirty desk</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">Look at desk</command>
+    <result xml:space="preserve">My desk is spotless now!&#x000A;&#x000A;On the desk are a doctor's note, an old newspaper and a tablet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">Look at doctor's note</command>
+    <result xml:space="preserve">A note from an appointment that reads: "severe case of amnesia, causing a memory loss of the past 2 weeks.". It's all a fog to me.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">Read newspaper</command>
+    <result xml:space="preserve">My parents were pretty important in stopping the corruption in this city... I'm sure a lot of people would want them dead. It's not surprising this is in the cover of the newspaper... but I will find out who did this!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">Use tablet</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">Look at tablet</command>
+    <result xml:space="preserve">A tablet where I keep my diary... but for some reason the past 2 weeks have been erased... precisely the time I lost my memory... stupid thing, the first time it would actually be useful I forgot to write in it!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">Look at trophy</command>
+    <result xml:space="preserve">I was so good at Mark Kart 64... winning this tournament was a breeze!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">Look at tiara</command>
+    <result xml:space="preserve">It shines so brightly... more than every other hat...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">Wear tiara</command>
+    <result xml:space="preserve">(first taking the tiara)&#x000A;Nobody can question my fashion! I will walk out with a tiara if I want!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">Look at green hat</command>
+    <result xml:space="preserve">This hat is perfect for St. Patrick celebrations.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">Leave office</command>
+    <result xml:space="preserve">I only understood you as far as wanting to leave.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">Exit office</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">Get out</command>
+    <result xml:space="preserve">I could leave, but to where? I should probably read my cases first.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">Go to Bingo Street</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">Exit house</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">Leave house</command>
+    <result xml:space="preserve">I only understood you as far as wanting to leave.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">Leave apartment</command>
+    <result xml:space="preserve">I only understood you as far as wanting to leave.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">leave office</command>
+    <result xml:space="preserve">I only understood you as far as wanting to leave.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">Let me out</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">Read cases</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">Look at pile of paper</command>
+    <result xml:space="preserve">There are 2 cases here. Another couple just like my parents, found in Bingo Street... and a judge killed in his own chambers. He was working on some case about a cosmetics company.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">Read cases</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">Read pile of paper</command>
+    <result xml:space="preserve">The first case happened a week ago... they were found dead in a trash can. According to the police report, they had very peculiar injuries... it looks like they fought with the attacker.&#x000A;As for the second case, it was just delivered to me. The body is still in the courthouse, so I should head there soon. Judge Richard was found dead in his chambers found with a knife in his head. A judge can get a lot of enemies, but he was only working on one case at the time... I should go there.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">Go to courthouse</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">Go to trash can</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">Leave office</command>
+    <result xml:space="preserve">I only understood you as far as wanting to leave.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">Leave house</command>
+    <result xml:space="preserve">I only understood you as far as wanting to leave.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">Let me leave</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">Leave</command>
+    <result xml:space="preserve">The 68th Street&#x000A;68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.&#x000A;&#x000A;Both murders happened in another part of the town, I think have to go east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">Go east</command>
+    <result xml:space="preserve">St Miku Crossing&#x000A;St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">Go to courthouse</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">Go North</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">Go South</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.&#x000A;&#x000A;The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.&#x000A;&#x000A;They don't even notice me walk by.&#x000A;&#x000A;There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court" Americano is and to the west, towards Bingo Street.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">Go to Mike</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">Approach Mike</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">Talk to Mike</command>
+    <result xml:space="preserve">"I wanted to see the small ducks, but they are under construction..."&#x000A;...&#x000A;"I mean the park, not the ducks!&#x000A;Oh. Ok... I'm just gonna go now...&#x000A;"Oh ok Mr. High-And-Mighty-Tiara-Wearer. It's not like I'm the only weirdo here!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">Go South</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">Takl to receptionist</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">Talk to receptionist</command>
+    <result xml:space="preserve">Hello, may I know where Judge Richard's chambers are?&#x000A;"I'm sorry, but he is quite busy at the moment, you need to return another day."&#x000A;I am Detective Alfonzo. I was called here to investigate his death.&#x000A;"My apologies... it's that room to the right."&#x000A;I thought my hat would give it away...&#x000A;"Well that... certainly looks nice on you!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">Go inside</command>
+    <result xml:space="preserve">&gt;A strange man bumps into you.&#x000A;Hey! Watch where you're going!&#x000A;He's already gone... could have at least apologized.&#x000A;&#x000A;El Court" Americano - Judge Richard's Office&#x000A;I remember hearing about this guy from my mother... I think they worked together a couple of times...&#x000A;&#x000A;This is one small office... looks old, older than the rest of the building, like it's holding on to a long forgotten past.&#x000A;&#x000A;It's well kept though, despite... everything.&#x000A;&#x000A;You can see a Fancy Desk (on which is an Open Letter), a Judge Richard's Dead Body, a Blood Stain and a Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">Examine fancy desk</command>
+    <result xml:space="preserve">This desk has some fine craftsmanship, suiting for a judge. Though it's starting to show it's age.&#x000A;&#x000A;I should take a closer look at it.&#x000A;&#x000A;On the Fancy Desk is an Open Letter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">Look at open letter</command>
+    <result xml:space="preserve">Hold on, this letter is in my mother's handwritting... looks like they were close, much closer than i thought.&#x000A;&#x000A;They were working on a case together for her activism, but I can't make out the rest of it though.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">Investigate Judge Richard's Dead Body</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">Examine Judge Richard's Dead Body</command>
+    <result xml:space="preserve">Poor old bastard. Stabbed in the back of the head, whoever did this wanted to make sure he didn't walk out of here alive.&#x000A;&#x000A;The knife is missing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">Examine blood stain</command>
+    <result xml:space="preserve">There's a trail of blood leading underneath the bookshelf.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">Examine bookshelf</command>
+    <result xml:space="preserve">An old bookshelf, filled to the brim with all kinds of books and memorabilia&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">Examine books</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">Move bookshelf</command>
+    <result xml:space="preserve">Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">Examine memorabilia</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">Investigate memorabilia</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">Look under bookshelf</command>
+    <result xml:space="preserve">Under the Bookshelf you find a Bloody Knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">Take bloody knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">Investigate bloody knife</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">Examine bloody knife</command>
+    <result xml:space="preserve">Must be the murder weapon. The blood's gone dry.&#x000A;&#x000A;There's a symbol of a hand on the handle. The blade looks odd... now that i look at it, this kind of thing could do some real damage if handled improperly, the same kind of damage found on that couple in Bingo Street.&#x000A;&#x000A;This thing was hiding under the bookshelf... I wonder if there are other hidden things i could find.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">Look under bookshelf</command>
+    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">Examine under bookshelf</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">Leave</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">Leave</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.&#x000A;&#x000A;The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.&#x000A;&#x000A;They don't even notice me walk by.&#x000A;&#x000A;There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court" Americano is and to the west, towards Bingo Street.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">Go West</command>
+    <result xml:space="preserve">Bingo Street&#x000A;Bingo Street is like a louder, more run down version of 68th Street, if that's even possible. The atmosphere feels similar, but the people don't, they feel more like the ones on Justice Avenue, only without all the money.&#x000A;&#x000A;The cops don't usually come here, they're paid well not to... damn bastards.&#x000A;&#x000A;For some reason they decided to build a damn company here, i'd go in but the place is in repairs from what it looks like, about time if ya ask me, thought it'd be better if the people got that treatment first, it's been needed for a long ass time.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">Go East</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.&#x000A;&#x000A;The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.&#x000A;&#x000A;They don't even notice me walk by.&#x000A;&#x000A;There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court" Americano is and to the west, towards Bingo Street.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">Go South</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">Go inside</command>
+    <result xml:space="preserve">El Court" Americano - Judge Richard's Office&#x000A;I remember hearing about this guy from my mother... I think they worked together a couple of times...&#x000A;&#x000A;This is one small office... looks old, older than the rest of the building, like it's holding on to a long forgotten past.&#x000A;&#x000A;It's well kept though, despite... everything.&#x000A;&#x000A;You can see a Fancy Desk (on which is an Open Letter), a Judge Richard's Dead Body, a Blood Stain and a Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">Look under desk</command>
+    <result xml:space="preserve">Under the Fancy Desk you find an old key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">Taken old key</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">Take old key</command>
+    <result xml:space="preserve">A key? I wonder what I could do with this...&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">Leave</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">Leave</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Back in the Justice Avenue. Looks like the Park is finally open. Maybe I should go inside and look at the ducks.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">Talk to Mike</command>
+    <result xml:space="preserve">"I can finally see the ducks! I'm so excited to finally enter the DLC Park!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">Enter park</command>
+    <result xml:space="preserve">Daniel Louis-Campbell Park&#x000A;I used to come here as a kid, there was a playground further in where mom and dad used to play catch with me.&#x000A;&#x000A;Looks like there is a lake here. So pretty.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and a lake here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">Go to gate</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">Open gate</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">Investigate lake</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-184"/>
+    </children>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">Examine lake</command>
+    <result xml:space="preserve">Such a pretty lake, and the ducks are sweet too. I remember throwing stones at the lake to see how many times it would rebound. I don't have any stones, but I have a key...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-185"/>
+    </children>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve">Throw key</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">Pick up key</command>
+    <result xml:space="preserve">A key? I wonder what I could do with this...&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-187"/>
+    </children>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">Throw key at lake</command>
+    <result xml:space="preserve">Oh. It sunk immediatly. Oops.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">script off</command>
+    <result xml:space="preserve">Transcripting is already off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-2">
     <command xml:space="preserve">clean the desk</command>
@@ -883,12 +1646,2321 @@
   </item>
   <item nodeId="node-101">
     <command xml:space="preserve">script on</command>
-    <result xml:space="preserve">Attempt to begin transcript failed.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Start of a transcript of:&#x000A;&#x000A;Detective Afonzo and The Cult of La Mancha&#x000A;An Interactive Fiction by Alien Cat Studios&#x000A;Release 1 / Serial number 260525 / Inform 7 v10.1.2 / D&#x000A;Inform 7 v10.1.2&#x000A;Identification number: //3F4AAB80-A3D7-4E51-8CD6-97F45F8917F6//&#x000A;Interpreter version 0.6.1 / VM 3.1.3&#x000A;Hiding Under version 4 by Eric Eve&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
+      <child nodeId="node-189"/>
+      <child nodeId="node-287"/>
       <child nodeId="node-102"/>
     </children>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">What a mess... well, look what we have here... this pile of paper has my current cases, and it's piling up... I should take a look at these.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">examine paper</command>
+    <result xml:space="preserve">There are 2 cases here. Another couple just like my parents, found in Bingo Street... and a judge killed in his own chambers. He was working on some case about a cosmetics company.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-191"/>
+    </children>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">go Bingo Street</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">I could leave, but to where? I should probably read my cases first.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-193"/>
+    </children>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">read cases</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-194"/>
+    </children>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">read paper</command>
+    <result xml:space="preserve">The first case happened a week ago... they were found dead in a trash can. According to the police report, they had very peculiar injuries... it looks like they fought with the attacker.&#x000A;As for the second case, it was just delivered to me. The body is still in the courthouse, so I should head there soon. Judge Richard was found dead in his chambers found with a knife in his head. A judge can get a lot of enemies, but he was only working on one case at the time... I should go there.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">go chambers</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">It's chilly outside. I should probably wear a hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve">back</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">pick hat</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">grab hat</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-200"/>
+    </children>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">go rack</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-201"/>
+    </children>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">open rack</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-202"/>
+    </children>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">grab rack</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve">examine rack</command>
+    <result xml:space="preserve">All of my hats are here, and my trophy as well.&#x000A;&#x000A;On the rack are a green hat, a red hat, a black hat, a tiara and a trophy.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve">examine green hat</command>
+    <result xml:space="preserve">This hat is perfect for St. Patrick celebrations.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+    </children>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">use green hat</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-206"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve">pick up green hat</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-207"/>
+    </children>
+  </item>
+  <item nodeId="node-207">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">It's chilly outside. I should probably wear a hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-208"/>
+    </children>
+  </item>
+  <item nodeId="node-208">
+    <command xml:space="preserve">where</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">weare</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">wear</command>
+    <result xml:space="preserve">(the green hat)&#x000A;High fashion for Alfonzo Sapienze! This looks good on me.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-211"/>
+    </children>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">The 68th Street&#x000A;68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.&#x000A;&#x000A;Both murders happened in another part of the town, I think have to go east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">St Miku Crossing&#x000A;St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.&#x000A;&#x000A;I see the Justice Avenue to the South, as well as the 68th Street to the West.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The 68th Street&#x000A;68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.&#x000A;&#x000A;Both murders happened in another part of the town, I think have to go east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">St Miku Crossing&#x000A;St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.&#x000A;&#x000A;I see the Justice Avenue to the South, as well as the 68th Street to the West.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-216"/>
+    </children>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The 68th Street&#x000A;68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.&#x000A;&#x000A;Both murders happened in another part of the town, I think have to go east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">St Miku Crossing&#x000A;St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.&#x000A;&#x000A;I see the Justice Avenue to the South, as well as the 68th Street to the West.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.&#x000A;&#x000A;The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.&#x000A;&#x000A;They don't even notice me walk by.&#x000A;&#x000A;There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court" Americano is and to the west, towards Bingo Street.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-220"/>
+    </children>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">talk to Mike</command>
+    <result xml:space="preserve">"I wanted to see the small ducks, but they are under construction..."&#x000A;...&#x000A;"I mean the park, not the ducks!&#x000A;Oh. Ok... I'm just gonna go now...&#x000A;"Oh ok Mr. High-And-Mighty-Normal-Hat-Wearer. Could at least wear something cool like a tiara!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Bingo Street&#x000A;Bingo Street is like a louder, more run down version of 68th Street, if that's even possible. The atmosphere feels similar, but the people don't, they feel more like the ones on Justice Avenue, only without all the money.&#x000A;&#x000A;The cops don't usually come here, they're paid well not to... damn bastards.&#x000A;&#x000A;For some reason they decided to build a damn company here, i'd go in but the place is in repairs from what it looks like, about time if ya ask me, thought it'd be better if the people got that treatment first, it's been needed for a long ass time.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-222"/>
+    </children>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-223"/>
+    </children>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.&#x000A;&#x000A;The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.&#x000A;&#x000A;They don't even notice me walk by.&#x000A;&#x000A;There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court" Americano is and to the west, towards Bingo Street.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">open park gate</command>
+    <result xml:space="preserve">It's still under construction...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">St Miku Crossing&#x000A;St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.&#x000A;&#x000A;I see the Justice Avenue to the South, as well as the 68th Street to the West.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The 68th Street&#x000A;68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.&#x000A;&#x000A;Both murders happened in another part of the town, I think have to go east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">St Miku Crossing&#x000A;St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.&#x000A;&#x000A;I see the Justice Avenue to the South, as well as the 68th Street to the West.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The 68th Street&#x000A;68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.&#x000A;&#x000A;Both murders happened in another part of the town, I think have to go east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-233"/>
+    </children>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">St Miku Crossing&#x000A;St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.&#x000A;&#x000A;I see the Justice Avenue to the South, as well as the 68th Street to the West.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The 68th Street&#x000A;68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.&#x000A;&#x000A;Both murders happened in another part of the town, I think have to go east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">St Miku Crossing&#x000A;St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.&#x000A;&#x000A;I see the Justice Avenue to the South, as well as the 68th Street to the West.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.&#x000A;&#x000A;The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.&#x000A;&#x000A;They don't even notice me walk by.&#x000A;&#x000A;There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court" Americano is and to the west, towards Bingo Street.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Bingo Street&#x000A;Bingo Street is like a louder, more run down version of 68th Street, if that's even possible. The atmosphere feels similar, but the people don't, they feel more like the ones on Justice Avenue, only without all the money.&#x000A;&#x000A;The cops don't usually come here, they're paid well not to... damn bastards.&#x000A;&#x000A;For some reason they decided to build a damn company here, i'd go in but the place is in repairs from what it looks like, about time if ya ask me, thought it'd be better if the people got that treatment first, it's been needed for a long ass time.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.&#x000A;&#x000A;The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.&#x000A;&#x000A;They don't even notice me walk by.&#x000A;&#x000A;There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court" Americano is and to the west, towards Bingo Street.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve">examine receptionist</command>
+    <result xml:space="preserve">This lady seems competent. And she is typing so fast too. And cute too. Maybe I can ask her out on a date after I solve this case.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-241"/>
+    </children>
+  </item>
+  <item nodeId="node-241">
+    <command xml:space="preserve">talk to lady</command>
+    <result xml:space="preserve">Hello, may I know where Judge Richard's chambers are?&#x000A;"I'm sorry, but he is quite busy at the moment, you need to return another day."&#x000A;I am Detective Alfonzo. I was called here to investigate his death.&#x000A;"My apologies... it's that room to the right."&#x000A;I thought my hat would give it away...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-242"/>
+    </children>
+  </item>
+  <item nodeId="node-242">
+    <command xml:space="preserve">go right</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-243"/>
+    </children>
+  </item>
+  <item nodeId="node-243">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Suspicious Alley&#x000A;The door lead to a narrow, stinking alleyway, isolated from the rest of the city.&#x000A;&#x000A;There's rats all over and spiders crawling on the walls. There is no way to go but forwards, to the darkness.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-244"/>
+    </children>
+  </item>
+  <item nodeId="node-244">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-245"/>
+    </children>
+  </item>
+  <item nodeId="node-245">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">&gt;A strange man bumps into you.&#x000A;Hey! Watch where you're going!&#x000A;He's already gone... could have at least apologized.&#x000A;&#x000A;El Court" Americano - Judge Richard's Office&#x000A;I remember hearing about this guy from my mother... I think they worked together a couple of times...&#x000A;&#x000A;This is one small office... looks old, older than the rest of the building, like it's holding on to a long forgotten past.&#x000A;&#x000A;It's well kept though, despite... everything.&#x000A;&#x000A;You can see a Fancy Desk (on which is an Open Letter), a Judge Richard's Dead Body, a Blood Stain and a Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-246"/>
+    </children>
+  </item>
+  <item nodeId="node-246">
+    <command xml:space="preserve">examine fancy desk</command>
+    <result xml:space="preserve">This desk has some fine craftsmanship, suiting for a judge. Though it's starting to show it's age.&#x000A;&#x000A;I should take a closer look at it.&#x000A;&#x000A;On the Fancy Desk is an Open Letter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-247"/>
+    </children>
+  </item>
+  <item nodeId="node-247">
+    <command xml:space="preserve">look fancy desk</command>
+    <result xml:space="preserve">This desk has some fine craftsmanship, suiting for a judge. Though it's starting to show it's age.&#x000A;&#x000A;I should take a closer look at it.&#x000A;&#x000A;On the Fancy Desk is an Open Letter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-248"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">open letter</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">look closely</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve">examine open letter</command>
+    <result xml:space="preserve">Hold on, this letter is in my mother's handwritting... looks like they were close, much closer than i thought.&#x000A;&#x000A;They were working on a case together for her activism, but I can't make out the rest of it though.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-251"/>
+    </children>
+  </item>
+  <item nodeId="node-251">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-252"/>
+    </children>
+  </item>
+  <item nodeId="node-252">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
+  </item>
+  <item nodeId="node-253">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-254"/>
+    </children>
+  </item>
+  <item nodeId="node-254">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-255"/>
+    </children>
+  </item>
+  <item nodeId="node-255">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(the green hat)&#x000A;This hat is perfect for St. Patrick celebrations.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-256"/>
+    </children>
+  </item>
+  <item nodeId="node-256">
+    <command xml:space="preserve">examine Judge Richard's Dead Body</command>
+    <result xml:space="preserve">Poor old bastard. Stabbed in the back of the head, whoever did this wanted to make sure he didn't walk out of here alive.&#x000A;&#x000A;The knife is missing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-257"/>
+    </children>
+  </item>
+  <item nodeId="node-257">
+    <command xml:space="preserve">search knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-258"/>
+    </children>
+  </item>
+  <item nodeId="node-258">
+    <command xml:space="preserve">examine Blood Stain</command>
+    <result xml:space="preserve">There's a trail of blood leading underneath the bookshelf.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-259"/>
+    </children>
+  </item>
+  <item nodeId="node-259">
+    <command xml:space="preserve">examine bookshelf</command>
+    <result xml:space="preserve">An old bookshelf, filled to the brim with all kinds of books and memorabilia&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-260"/>
+    </children>
+  </item>
+  <item nodeId="node-260">
+    <command xml:space="preserve">go under bookshelf</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-261"/>
+    </children>
+  </item>
+  <item nodeId="node-261">
+    <command xml:space="preserve">under</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-262"/>
+    </children>
+  </item>
+  <item nodeId="node-262">
+    <command xml:space="preserve">examine underneath</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-263"/>
+    </children>
+  </item>
+  <item nodeId="node-263">
+    <command xml:space="preserve">bookshelf</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-264"/>
+    </children>
+  </item>
+  <item nodeId="node-264">
+    <command xml:space="preserve">look under bookshelf</command>
+    <result xml:space="preserve">Under the Bookshelf you find a Bloody Knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-265"/>
+    </children>
+  </item>
+  <item nodeId="node-265">
+    <command xml:space="preserve">pick up Bloody Knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-266"/>
+    </children>
+  </item>
+  <item nodeId="node-266">
+    <command xml:space="preserve">examine bloody knife</command>
+    <result xml:space="preserve">Must be the murder weapon. The blood's gone dry.&#x000A;&#x000A;There's a symbol of a hand on the handle. The blade looks odd... now that i look at it, this kind of thing could do some real damage if handled improperly, the same kind of damage found on that couple in Bingo Street.&#x000A;&#x000A;This thing was hiding under the bookshelf... I wonder if there are other hidden things i could find.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-267"/>
+    </children>
+  </item>
+  <item nodeId="node-267">
+    <command xml:space="preserve">look under bookshelf</command>
+    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-268"/>
+    </children>
+  </item>
+  <item nodeId="node-268">
+    <command xml:space="preserve">findo other things</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-269"/>
+    </children>
+  </item>
+  <item nodeId="node-269">
+    <command xml:space="preserve">look under desk</command>
+    <result xml:space="preserve">Under the Fancy Desk you find an old key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-270"/>
+    </children>
+  </item>
+  <item nodeId="node-270">
+    <command xml:space="preserve">examine old key</command>
+    <result xml:space="preserve">This key is familiar... where have I seen it before?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-271"/>
+    </children>
+  </item>
+  <item nodeId="node-271">
+    <command xml:space="preserve">pick up old key</command>
+    <result xml:space="preserve">A key? I wonder what I could do with this...&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-272"/>
+    </children>
+  </item>
+  <item nodeId="node-272">
+    <command xml:space="preserve">use old key</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-273"/>
+    </children>
+  </item>
+  <item nodeId="node-273">
+    <command xml:space="preserve">use bloody knife</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-274"/>
+    </children>
+  </item>
+  <item nodeId="node-274">
+    <command xml:space="preserve">drop bloody knife</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-275"/>
+    </children>
+  </item>
+  <item nodeId="node-275">
+    <command xml:space="preserve">pick up bloody knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-276"/>
+    </children>
+  </item>
+  <item nodeId="node-276">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-277"/>
+    </children>
+  </item>
+  <item nodeId="node-277">
+    <command xml:space="preserve">invite lady to date</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-278"/>
+    </children>
+  </item>
+  <item nodeId="node-278">
+    <command xml:space="preserve">exit </command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Back in the Justice Avenue. Looks like the Park is finally open. Maybe I should go inside and look at the ducks.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-279"/>
+    </children>
+  </item>
+  <item nodeId="node-279">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-280"/>
+    </children>
+  </item>
+  <item nodeId="node-280">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-281"/>
+    </children>
+  </item>
+  <item nodeId="node-281">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-282"/>
+    </children>
+  </item>
+  <item nodeId="node-282">
+    <command xml:space="preserve">scipt off</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-283"/>
+    </children>
+  </item>
+  <item nodeId="node-283">
+    <command xml:space="preserve">script off</command>
+    <result xml:space="preserve">End of transcript.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-284"/>
+    </children>
+  </item>
+  <item nodeId="node-284">
+    <command xml:space="preserve">quit game </command>
+    <result xml:space="preserve">I only understood you as far as wanting to quit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-285"/>
+    </children>
+  </item>
+  <item nodeId="node-285">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-286"/>
+    </children>
+  </item>
+  <item nodeId="node-286">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-287">
+    <command xml:space="preserve">pick black hat</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-288"/>
+    </children>
+  </item>
+  <item nodeId="node-288">
+    <command xml:space="preserve">pick up black hat</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-289"/>
+    </children>
+  </item>
+  <item nodeId="node-289">
+    <command xml:space="preserve">eat black hat</command>
+    <result xml:space="preserve">That's plainly inedible.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-290"/>
+    </children>
+  </item>
+  <item nodeId="node-290">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">What a mess... well, look what we have here... this pile of paper has my current cases, and it's piling up... I should take a look at these.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-291"/>
+    </children>
+  </item>
+  <item nodeId="node-291">
+    <command xml:space="preserve">burn paper</command>
+    <result xml:space="preserve">This dangerous act would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-292"/>
+    </children>
+  </item>
+  <item nodeId="node-292">
+    <command xml:space="preserve">put black hat on</command>
+    <result xml:space="preserve">High fashion for Alfonzo Sapienze! This looks good on me.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-293"/>
+    </children>
+  </item>
+  <item nodeId="node-293">
+    <command xml:space="preserve">examine black hat</command>
+    <result xml:space="preserve">I look like Professor Layton now!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-294"/>
+    </children>
+  </item>
+  <item nodeId="node-294">
+    <command xml:space="preserve">take black hat out</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take the black hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-295"/>
+    </children>
+  </item>
+  <item nodeId="node-295">
+    <command xml:space="preserve">take black hat up~</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take the black hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-296"/>
+    </children>
+  </item>
+  <item nodeId="node-296">
+    <command xml:space="preserve">take black hat up</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take the black hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-297"/>
+    </children>
+  </item>
+  <item nodeId="node-297">
+    <command xml:space="preserve">remove black hat</command>
+    <result xml:space="preserve">You aren't wearing the black hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-298"/>
+    </children>
+  </item>
+  <item nodeId="node-298">
+    <command xml:space="preserve">wear hat</command>
+    <result xml:space="preserve">(the black hat)&#x000A;High fashion for Alfonzo Sapienze! This looks good on me.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-299"/>
+    </children>
+  </item>
+  <item nodeId="node-299">
+    <command xml:space="preserve">remove black hat</command>
+    <result xml:space="preserve">You aren't wearing the black hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-300"/>
+    </children>
+  </item>
+  <item nodeId="node-300">
+    <command xml:space="preserve">pick papers</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-301"/>
+    </children>
+  </item>
+  <item nodeId="node-301">
+    <command xml:space="preserve">pick paper</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-302"/>
+    </children>
+  </item>
+  <item nodeId="node-302">
+    <command xml:space="preserve">take paper</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-303"/>
+    </children>
+  </item>
+  <item nodeId="node-303">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a pile of paper&#x000A;  a black hat&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-304"/>
+    </children>
+  </item>
+  <item nodeId="node-304">
+    <command xml:space="preserve">examine paper</command>
+    <result xml:space="preserve">There are 2 cases here. Another couple just like my parents, found in Bingo Street... and a judge killed in his own chambers. He was working on some case about a cosmetics company.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-305"/>
+    </children>
+  </item>
+  <item nodeId="node-305">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">I could leave, but to where? I should probably read my cases first.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-306"/>
+    </children>
+  </item>
+  <item nodeId="node-306">
+    <command xml:space="preserve">read case</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-307"/>
+    </children>
+  </item>
+  <item nodeId="node-307">
+    <command xml:space="preserve">read cases</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-308"/>
+    </children>
+  </item>
+  <item nodeId="node-308">
+    <command xml:space="preserve">read paper</command>
+    <result xml:space="preserve">The first case happened a week ago... they were found dead in a trash can. According to the police report, they had very peculiar injuries... it looks like they fought with the attacker.&#x000A;As for the second case, it was just delivered to me. The body is still in the courthouse, so I should head there soon. Judge Richard was found dead in his chambers found with a knife in his head. A judge can get a lot of enemies, but he was only working on one case at the time... I should go there.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-309"/>
+    </children>
+  </item>
+  <item nodeId="node-309">
+    <command xml:space="preserve">examine paper</command>
+    <result xml:space="preserve">There are 2 cases here. Another couple just like my parents, found in Bingo Street... and a judge killed in his own chambers. He was working on some case about a cosmetics company.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-310"/>
+    </children>
+  </item>
+  <item nodeId="node-310">
+    <command xml:space="preserve">look paper</command>
+    <result xml:space="preserve">There are 2 cases here. Another couple just like my parents, found in Bingo Street... and a judge killed in his own chambers. He was working on some case about a cosmetics company.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-311"/>
+    </children>
+  </item>
+  <item nodeId="node-311">
+    <command xml:space="preserve">investigate paper</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-312"/>
+    </children>
+  </item>
+  <item nodeId="node-312">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">The 68th Street&#x000A;68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.&#x000A;&#x000A;Both murders happened in another part of the town, I think have to go east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-313"/>
+    </children>
+  </item>
+  <item nodeId="node-313">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">St Miku Crossing&#x000A;St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.&#x000A;&#x000A;I see the Justice Avenue to the South, as well as the 68th Street to the West.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-314"/>
+    </children>
+  </item>
+  <item nodeId="node-314">
+    <command xml:space="preserve">enter justice avenue~</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-315"/>
+    </children>
+  </item>
+  <item nodeId="node-315">
+    <command xml:space="preserve">enter justice avenue</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-316"/>
+    </children>
+  </item>
+  <item nodeId="node-316">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.&#x000A;&#x000A;The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.&#x000A;&#x000A;They don't even notice me walk by.&#x000A;&#x000A;There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court" Americano is and to the west, towards Bingo Street.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-317"/>
+    </children>
+  </item>
+  <item nodeId="node-317">
+    <command xml:space="preserve">open gate</command>
+    <result xml:space="preserve">It's still under construction...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-318"/>
+    </children>
+  </item>
+  <item nodeId="node-318">
+    <command xml:space="preserve">destroy gate</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-319"/>
+    </children>
+  </item>
+  <item nodeId="node-319">
+    <command xml:space="preserve">kick gate</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-320"/>
+    </children>
+  </item>
+  <item nodeId="node-320">
+    <command xml:space="preserve">read ads</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-321"/>
+    </children>
+  </item>
+  <item nodeId="node-321">
+    <command xml:space="preserve">examine ads</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-322"/>
+    </children>
+  </item>
+  <item nodeId="node-322">
+    <command xml:space="preserve">talk person~</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-323"/>
+    </children>
+  </item>
+  <item nodeId="node-323">
+    <command xml:space="preserve">talk~</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-324"/>
+    </children>
+  </item>
+  <item nodeId="node-324">
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">(to Mike)&#x000A;"I wanted to see the small ducks, but they are under construction..."&#x000A;...&#x000A;"I mean the park, not the ducks!&#x000A;Oh. Ok... I'm just gonna go now...&#x000A;"Oh ok Mr. High-And-Mighty-Normal-Hat-Wearer. Could at least wear something cool like a tiara!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-325"/>
+    </children>
+  </item>
+  <item nodeId="node-325">
+    <command xml:space="preserve">shut up</command>
+    <result xml:space="preserve">You must name something more substantial.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-326"/>
+    </children>
+  </item>
+  <item nodeId="node-326">
+    <command xml:space="preserve">shut up mike</command>
+    <result xml:space="preserve">He isn't something you can close.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-327"/>
+    </children>
+  </item>
+  <item nodeId="node-327">
+    <command xml:space="preserve">punch mike</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-328"/>
+    </children>
+  </item>
+  <item nodeId="node-328">
+    <command xml:space="preserve">talk mike</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-329"/>
+    </children>
+  </item>
+  <item nodeId="node-329">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-330"/>
+    </children>
+  </item>
+  <item nodeId="node-330">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">St Miku Crossing&#x000A;St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.&#x000A;&#x000A;I see the Justice Avenue to the South, as well as the 68th Street to the West.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-331"/>
+    </children>
+  </item>
+  <item nodeId="node-331">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">The 68th Street&#x000A;68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.&#x000A;&#x000A;Both murders happened in another part of the town, I think have to go east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-332"/>
+    </children>
+  </item>
+  <item nodeId="node-332">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">St Miku Crossing&#x000A;St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.&#x000A;&#x000A;I see the Justice Avenue to the South, as well as the 68th Street to the West.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-333"/>
+    </children>
+  </item>
+  <item nodeId="node-333">
+    <command xml:space="preserve">go home</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-334"/>
+    </children>
+  </item>
+  <item nodeId="node-334">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-335"/>
+    </children>
+  </item>
+  <item nodeId="node-335">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">The 68th Street&#x000A;68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.&#x000A;&#x000A;Both murders happened in another part of the town, I think have to go east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-336"/>
+    </children>
+  </item>
+  <item nodeId="node-336">
+    <command xml:space="preserve">examine car</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-337"/>
+    </children>
+  </item>
+  <item nodeId="node-337">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">St Miku Crossing&#x000A;St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.&#x000A;&#x000A;I see the Justice Avenue to the South, as well as the 68th Street to the West.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-338"/>
+    </children>
+  </item>
+  <item nodeId="node-338">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-339"/>
+    </children>
+  </item>
+  <item nodeId="node-339">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-340"/>
+    </children>
+  </item>
+  <item nodeId="node-340">
+    <command xml:space="preserve">go s</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.&#x000A;&#x000A;The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.&#x000A;&#x000A;They don't even notice me walk by.&#x000A;&#x000A;There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court" Americano is and to the west, towards Bingo Street.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-341"/>
+    </children>
+  </item>
+  <item nodeId="node-341">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You must supply a noun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-342"/>
+    </children>
+  </item>
+  <item nodeId="node-342">
+    <command xml:space="preserve">go s</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-343"/>
+    </children>
+  </item>
+  <item nodeId="node-343">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a pile of paper&#x000A;  a black hat&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-344"/>
+    </children>
+  </item>
+  <item nodeId="node-344">
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">(to the receptionist)&#x000A;Hello, may I know where Judge Richard's chambers are?&#x000A;"I'm sorry, but he is quite busy at the moment, you need to return another day."&#x000A;I am Detective Alfonzo. I was called here to investigate his death.&#x000A;"My apologies... it's that room to the right."&#x000A;I thought my hat would give it away...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-345"/>
+    </children>
+  </item>
+  <item nodeId="node-345">
+    <command xml:space="preserve">go r</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-346"/>
+    </children>
+  </item>
+  <item nodeId="node-346">
+    <command xml:space="preserve">go right</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-347"/>
+    </children>
+  </item>
+  <item nodeId="node-347">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">Suspicious Alley&#x000A;The door lead to a narrow, stinking alleyway, isolated from the rest of the city.&#x000A;&#x000A;There's rats all over and spiders crawling on the walls. There is no way to go but forwards, to the darkness.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-348"/>
+    </children>
+  </item>
+  <item nodeId="node-348">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-349"/>
+    </children>
+  </item>
+  <item nodeId="node-349">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">Suspicious Alley&#x000A;The door lead to a narrow, stinking alleyway, isolated from the rest of the city.&#x000A;&#x000A;There's rats all over and spiders crawling on the walls. There is no way to go but forwards, to the darkness.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-350"/>
+    </children>
+  </item>
+  <item nodeId="node-350">
+    <command xml:space="preserve">take raat</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-351"/>
+    </children>
+  </item>
+  <item nodeId="node-351">
+    <command xml:space="preserve">take rat</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-352"/>
+    </children>
+  </item>
+  <item nodeId="node-352">
+    <command xml:space="preserve">look rat</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-353"/>
+    </children>
+  </item>
+  <item nodeId="node-353">
+    <command xml:space="preserve">look spider</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-354"/>
+    </children>
+  </item>
+  <item nodeId="node-354">
+    <command xml:space="preserve">go forward</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-355"/>
+    </children>
+  </item>
+  <item nodeId="node-355">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">Tiara Palace&#x000A;Of all the places i expected to find here, a damn palace is the last one. It doesn't really look like a palace, it's more like a rainbow, glittery nightclub stuck at the end of a long, narrow alleyway.&#x000A;&#x000A;It has a small little entrance sitting at the bottom of a facade that still manages to be imposing desipite its proportions.&#x000A;&#x000A;There's a bouncer dressed like a clown waiting at the door, it doesn't look like he's gonna let me in, not while looking like this i'm guessin".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-356"/>
+    </children>
+  </item>
+  <item nodeId="node-356">
+    <command xml:space="preserve">talk bouncer</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-357"/>
+    </children>
+  </item>
+  <item nodeId="node-357">
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">(to yourself)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-358"/>
+    </children>
+  </item>
+  <item nodeId="node-358">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">Suspicious Alley&#x000A;The door lead to a narrow, stinking alleyway, isolated from the rest of the city.&#x000A;&#x000A;There's rats all over and spiders crawling on the walls. There is no way to go but forwards, to the darkness.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-359"/>
+    </children>
+  </item>
+  <item nodeId="node-359">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-360"/>
+    </children>
+  </item>
+  <item nodeId="node-360">
+    <command xml:space="preserve">go w~</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-361"/>
+    </children>
+  </item>
+  <item nodeId="node-361">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-362"/>
+    </children>
+  </item>
+  <item nodeId="node-362">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">&gt;A strange man bumps into you.&#x000A;Hey! Watch where you're going!&#x000A;He's already gone... could have at least apologized.&#x000A;&#x000A;El Court" Americano - Judge Richard's Office&#x000A;I remember hearing about this guy from my mother... I think they worked together a couple of times...&#x000A;&#x000A;This is one small office... looks old, older than the rest of the building, like it's holding on to a long forgotten past.&#x000A;&#x000A;It's well kept though, despite... everything.&#x000A;&#x000A;You can see a Fancy Desk (on which is an Open Letter), a Judge Richard's Dead Body, a Blood Stain and a Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-363"/>
+    </children>
+  </item>
+  <item nodeId="node-363">
+    <command xml:space="preserve">catch man</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-364"/>
+    </children>
+  </item>
+  <item nodeId="node-364">
+    <command xml:space="preserve">take man</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-365"/>
+    </children>
+  </item>
+  <item nodeId="node-365">
+    <command xml:space="preserve">grab an</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-366"/>
+    </children>
+  </item>
+  <item nodeId="node-366">
+    <command xml:space="preserve">eat body</command>
+    <result xml:space="preserve">That's plainly inedible.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-367"/>
+    </children>
+  </item>
+  <item nodeId="node-367">
+    <command xml:space="preserve">clean stain</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-368"/>
+    </children>
+  </item>
+  <item nodeId="node-368">
+    <command xml:space="preserve">open letter</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-369"/>
+    </children>
+  </item>
+  <item nodeId="node-369">
+    <command xml:space="preserve">examine letter</command>
+    <result xml:space="preserve">Hold on, this letter is in my mother's handwritting... looks like they were close, much closer than i thought.&#x000A;&#x000A;They were working on a case together for her activism, but I can't make out the rest of it though.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-370"/>
+    </children>
+  </item>
+  <item nodeId="node-370">
+    <command xml:space="preserve">read letter</command>
+    <result xml:space="preserve">What is wrong with me... I can't read this!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-371"/>
+    </children>
+  </item>
+  <item nodeId="node-371">
+    <command xml:space="preserve">examine letter</command>
+    <result xml:space="preserve">Hold on, this letter is in my mother's handwritting... looks like they were close, much closer than i thought.&#x000A;&#x000A;They were working on a case together for her activism, but I can't make out the rest of it though.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-372"/>
+    </children>
+  </item>
+  <item nodeId="node-372">
+    <command xml:space="preserve">examine dead body</command>
+    <result xml:space="preserve">Poor old bastard. Stabbed in the back of the head, whoever did this wanted to make sure he didn't walk out of here alive.&#x000A;&#x000A;The knife is missing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-373"/>
+    </children>
+  </item>
+  <item nodeId="node-373">
+    <command xml:space="preserve">knife?</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-374"/>
+    </children>
+  </item>
+  <item nodeId="node-374">
+    <command xml:space="preserve">look knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-375"/>
+    </children>
+  </item>
+  <item nodeId="node-375">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-376"/>
+    </children>
+  </item>
+  <item nodeId="node-376">
+    <command xml:space="preserve">examine bookshelf</command>
+    <result xml:space="preserve">An old bookshelf, filled to the brim with all kinds of books and memorabilia&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-377"/>
+    </children>
+  </item>
+  <item nodeId="node-377">
+    <command xml:space="preserve">look bookshelf</command>
+    <result xml:space="preserve">An old bookshelf, filled to the brim with all kinds of books and memorabilia&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-378"/>
+    </children>
+  </item>
+  <item nodeId="node-378">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a pile of paper&#x000A;  a black hat&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-379"/>
+    </children>
+  </item>
+  <item nodeId="node-379">
+    <command xml:space="preserve">drop hat</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-380"/>
+    </children>
+  </item>
+  <item nodeId="node-380">
+    <command xml:space="preserve">put paper on bookshelf~</command>
+    <result xml:space="preserve">Putting things on the Bookshelf would achieve nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-381"/>
+    </children>
+  </item>
+  <item nodeId="node-381">
+    <command xml:space="preserve">put paper on bookshelf</command>
+    <result xml:space="preserve">Putting things on the Bookshelf would achieve nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-382"/>
+    </children>
+  </item>
+  <item nodeId="node-382">
+    <command xml:space="preserve">examine body</command>
+    <result xml:space="preserve">Poor old bastard. Stabbed in the back of the head, whoever did this wanted to make sure he didn't walk out of here alive.&#x000A;&#x000A;The knife is missing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-383"/>
+    </children>
+  </item>
+  <item nodeId="node-383">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-384"/>
+    </children>
+  </item>
+  <item nodeId="node-384">
+    <command xml:space="preserve">talk </command>
+    <result xml:space="preserve">(to the receptionist)&#x000A;"The Judge was a good man. He was always fair in his trials. Why would someone kill him?..."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-385"/>
+    </children>
+  </item>
+  <item nodeId="node-385">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">El Court" Americano - Judge Richard's Office&#x000A;I remember hearing about this guy from my mother... I think they worked together a couple of times...&#x000A;&#x000A;This is one small office... looks old, older than the rest of the building, like it's holding on to a long forgotten past.&#x000A;&#x000A;It's well kept though, despite... everything.&#x000A;&#x000A;You can see a black hat, a Fancy Desk (on which is an Open Letter), a Judge Richard's Dead Body, a Blood Stain and a Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-386"/>
+    </children>
+  </item>
+  <item nodeId="node-386">
+    <command xml:space="preserve">examine fancy desk</command>
+    <result xml:space="preserve">This desk has some fine craftsmanship, suiting for a judge. Though it's starting to show it's age.&#x000A;&#x000A;I should take a closer look at it.&#x000A;&#x000A;On the Fancy Desk is an Open Letter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-387"/>
+    </children>
+  </item>
+  <item nodeId="node-387">
+    <command xml:space="preserve">take letter</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-388"/>
+    </children>
+  </item>
+  <item nodeId="node-388">
+    <command xml:space="preserve">open bookshelf</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-389"/>
+    </children>
+  </item>
+  <item nodeId="node-389">
+    <command xml:space="preserve">examine blood</command>
+    <result xml:space="preserve">There's a trail of blood leading underneath the bookshelf.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-390"/>
+    </children>
+  </item>
+  <item nodeId="node-390">
+    <command xml:space="preserve">move bookshelf</command>
+    <result xml:space="preserve">Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-391"/>
+    </children>
+  </item>
+  <item nodeId="node-391">
+    <command xml:space="preserve">pull book from bookshelf</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-392"/>
+    </children>
+  </item>
+  <item nodeId="node-392">
+    <command xml:space="preserve">push bookshelf</command>
+    <result xml:space="preserve">Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-393"/>
+    </children>
+  </item>
+  <item nodeId="node-393">
+    <command xml:space="preserve">pull bookshelg</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-394"/>
+    </children>
+  </item>
+  <item nodeId="node-394">
+    <command xml:space="preserve">look under bookshelf~</command>
+    <result xml:space="preserve">Under the Bookshelf you find a Bloody Knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-395"/>
+    </children>
+  </item>
+  <item nodeId="node-395">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-396"/>
+    </children>
+  </item>
+  <item nodeId="node-396">
+    <command xml:space="preserve">examine knife</command>
+    <result xml:space="preserve">Must be the murder weapon. The blood's gone dry.&#x000A;&#x000A;There's a symbol of a hand on the handle. The blade looks odd... now that i look at it, this kind of thing could do some real damage if handled improperly, the same kind of damage found on that couple in Bingo Street.&#x000A;&#x000A;This thing was hiding under the bookshelf... I wonder if there are other hidden things i could find.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-397"/>
+    </children>
+  </item>
+  <item nodeId="node-397">
+    <command xml:space="preserve">look under bookshelf</command>
+    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-398"/>
+    </children>
+  </item>
+  <item nodeId="node-398">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-399"/>
+    </children>
+  </item>
+  <item nodeId="node-399">
+    <command xml:space="preserve">kill receptionist</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-400"/>
+    </children>
+  </item>
+  <item nodeId="node-400">
+    <command xml:space="preserve">throw knife at receptionist</command>
+    <result xml:space="preserve">You lack the nerve when it comes to the crucial moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-401"/>
+    </children>
+  </item>
+  <item nodeId="node-401">
+    <command xml:space="preserve">throw knife </command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-402"/>
+    </children>
+  </item>
+  <item nodeId="node-402">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Suspicious Alley&#x000A;The door lead to a narrow, stinking alleyway, isolated from the rest of the city.&#x000A;&#x000A;There's rats all over and spiders crawling on the walls. There is no way to go but forwards, to the darkness.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-403"/>
+    </children>
+  </item>
+  <item nodeId="node-403">
+    <command xml:space="preserve">go west~</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-404"/>
+    </children>
+  </item>
+  <item nodeId="node-404">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a Bloody Knife and a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-405"/>
+    </children>
+  </item>
+  <item nodeId="node-405">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">El Court" Americano - Judge Richard's Office&#x000A;I remember hearing about this guy from my mother... I think they worked together a couple of times...&#x000A;&#x000A;This is one small office... looks old, older than the rest of the building, like it's holding on to a long forgotten past.&#x000A;&#x000A;It's well kept though, despite... everything.&#x000A;&#x000A;You can see a black hat, a Fancy Desk, a Judge Richard's Dead Body, a Blood Stain and a Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-406"/>
+    </children>
+  </item>
+  <item nodeId="node-406">
+    <command xml:space="preserve">look under desk</command>
+    <result xml:space="preserve">Under the Fancy Desk you find an old key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-407"/>
+    </children>
+  </item>
+  <item nodeId="node-407">
+    <command xml:space="preserve">grab key</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-408"/>
+    </children>
+  </item>
+  <item nodeId="node-408">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">A key? I wonder what I could do with this...&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-409"/>
+    </children>
+  </item>
+  <item nodeId="node-409">
+    <command xml:space="preserve">examine key</command>
+    <result xml:space="preserve">This key is familiar... where have I seen it before?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-410"/>
+    </children>
+  </item>
+  <item nodeId="node-410">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a Bloody Knife and a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-411"/>
+    </children>
+  </item>
+  <item nodeId="node-411">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Back in the Justice Avenue. Looks like the Park is finally open. Maybe I should go inside and look at the ducks.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-412"/>
+    </children>
+  </item>
+  <item nodeId="node-412">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">El Court" Americano - Main Hall&#x000A;I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.&#x000A;&#x000A;The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.&#x000A;&#x000A;People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.&#x000A;&#x000A;On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.&#x000A;&#x000A;There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.&#x000A;&#x000A;You can see a Bloody Knife and a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-413"/>
+    </children>
+  </item>
+  <item nodeId="node-413">
+    <command xml:space="preserve">look ducks</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-414"/>
+    </children>
+  </item>
+  <item nodeId="node-414">
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">(to the receptionist)&#x000A;"The Judge was a good man. He was always fair in his trials. Why would someone kill him?..."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-415"/>
+    </children>
+  </item>
+  <item nodeId="node-415">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Back in the Justice Avenue. Looks like the Park is finally open. Maybe I should go inside and look at the ducks.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-416"/>
+    </children>
+  </item>
+  <item nodeId="node-416">
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">(to Mike)&#x000A;"I can finally see the ducks! I'm so excited to finally enter the DLC Park!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-417"/>
+    </children>
+  </item>
+  <item nodeId="node-417">
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">(to Mike)&#x000A;"I can finally see the ducks! I'm so excited to finally enter the DLC Park!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-418"/>
+    </children>
+  </item>
+  <item nodeId="node-418">
+    <command xml:space="preserve">open park</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-419"/>
+    </children>
+  </item>
+  <item nodeId="node-419">
+    <command xml:space="preserve">go parl</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-420"/>
+    </children>
+  </item>
+  <item nodeId="node-420">
+    <command xml:space="preserve">go park</command>
+    <result xml:space="preserve">Daniel Louis-Campbell Park&#x000A;I used to come here as a kid, there was a playground further in where mom and dad used to play catch with me.&#x000A;&#x000A;Looks like there is a lake here. So pretty.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and a lake here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-421"/>
+    </children>
+  </item>
+  <item nodeId="node-421">
+    <command xml:space="preserve">open park gate</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-422"/>
+    </children>
+  </item>
+  <item nodeId="node-422">
+    <command xml:space="preserve">swim</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-423"/>
+    </children>
+  </item>
+  <item nodeId="node-423">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-424"/>
+    </children>
+  </item>
+  <item nodeId="node-424">
+    <command xml:space="preserve">go lake</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-425"/>
+    </children>
+  </item>
+  <item nodeId="node-425">
+    <command xml:space="preserve">examine lake</command>
+    <result xml:space="preserve">Such a pretty lake, and the ducks are sweet too. I remember throwing stones at the lake to see how many times it would rebound. I don't have any stones, but I have a key...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-426"/>
+    </children>
+  </item>
+  <item nodeId="node-426">
+    <command xml:space="preserve">throw key at lake</command>
+    <result xml:space="preserve">Oh. It sunk immediatly. Oops.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-427"/>
+    </children>
+  </item>
+  <item nodeId="node-427">
+    <command xml:space="preserve">grab key</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-428"/>
+    </children>
+  </item>
+  <item nodeId="node-428">
+    <command xml:space="preserve">throw myself</command>
+    <result xml:space="preserve">You lack the dexterity.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-429"/>
+    </children>
+  </item>
+  <item nodeId="node-429">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-430"/>
+    </children>
+  </item>
+  <item nodeId="node-430">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Back in the Justice Avenue. Looks like the Park is finally open. Maybe I should go inside and look at the ducks.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-431"/>
+    </children>
+  </item>
+  <item nodeId="node-431">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">Daniel Louis-Campbell Park&#x000A;I used to come here as a kid, there was a playground further in where mom and dad used to play catch with me.&#x000A;&#x000A;Looks like there is a lake here. So pretty.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and a lake here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-432"/>
+    </children>
+  </item>
+  <item nodeId="node-432">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-433"/>
+    </children>
+  </item>
+  <item nodeId="node-433">
+    <command xml:space="preserve">go park</command>
+    <result xml:space="preserve">Justice Avenue&#x000A;Back in the Justice Avenue. Looks like the Park is finally open. Maybe I should go inside and look at the ducks.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-434"/>
+    </children>
+  </item>
+  <item nodeId="node-434">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Daniel Louis-Campbell Park&#x000A;I used to come here as a kid, there was a playground further in where mom and dad used to play catch with me.&#x000A;&#x000A;Looks like there is a lake here. So pretty.&#x000A;&#x000A;You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and a lake here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-435"/>
+    </children>
+  </item>
+  <item nodeId="node-435">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Afonso Sapienze's Parent's Apartment&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-436"/>
+    </children>
+  </item>
+  <item nodeId="node-436">
+    <command xml:space="preserve">kill</command>
+    <result xml:space="preserve">What do you want to kill?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-437"/>
+    </children>
+  </item>
+  <item nodeId="node-437">
+    <command xml:space="preserve">myself</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-438"/>
+    </children>
+  </item>
+  <item nodeId="node-438">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Afonso Sapienze's Parent's Apartment&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-439"/>
+    </children>
+  </item>
+  <item nodeId="node-439">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-440"/>
+    </children>
+  </item>
+  <item nodeId="node-440">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-441"/>
+    </children>
+  </item>
+  <item nodeId="node-441">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-442"/>
+    </children>
+  </item>
+  <item nodeId="node-442">
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">(to yourself)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-443"/>
+    </children>
+  </item>
+  <item nodeId="node-443">
+    <command xml:space="preserve">open safe with key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-444"/>
+    </children>
+  </item>
+  <item nodeId="node-444">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-445"/>
+    </children>
+  </item>
+  <item nodeId="node-445">
+    <command xml:space="preserve">examine locked safe</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-102">
     <command xml:space="preserve">show me</command>

@@ -1,0 +1,11 @@
+Start of a transcript of:
+
+Detective Afonzo and The Cult of La Mancha
+An Interactive Fiction by Alien Cat Studios
+Release 1 / Serial number 260525 / Inform 7 v10.1.2 / D
+Inform 7 v10.1.2
+Identification number: //3F4AAB80-A3D7-4E51-8CD6-97F45F8917F6//
+Interpreter version 0.6.1 / VM 3.1.3
+Hiding Under version 4 by Eric Eve
+
+>

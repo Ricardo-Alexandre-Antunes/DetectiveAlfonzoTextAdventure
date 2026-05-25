@@ -316,20 +316,20 @@ Global match_length = 0;
 Global match_from = 0;
 Global parsetoken_nesting = 0;
 Array Global_Vars --> 0
-  (0) ! -->1 = V65_number_understood (V65_number_understood)
-  (0) ! -->2 = V66_real_number_understood (V66_real_number_understood)
-  (0) ! -->3 = V67_truth_state_understood (V67_truth_state_understood)
-  (0) ! -->4 = V68_external_file_understood (V68_external_file_understood)
-  (540) ! -->5 = V69_time_understood (V69_time_understood)
-  (I_entire_game_U1) ! -->6 = V70_scene_understood (V70_scene_understood)
-  (I_figure_of_cover_U1) ! -->7 = V71_figure_name_understood (V71_figure_name_understood)
-  (0) ! -->8 = V72_sound_name_understood (V72_sound_name_understood)
-  (I_english_language_U1) ! -->9 = V73_natural_language_understo (V73_natural_language_understo)
-  (I_present_tense_U1) ! -->10 = V74_grammatical_tense_underst (V74_grammatical_tense_underst)
-  (I_first_person_singular_U1) ! -->11 = V75_narrative_viewpoint_under (V75_narrative_viewpoint_under)
-  (I_nominative_U1) ! -->12 = V76_grammatical_case_understo (V76_grammatical_case_understo)
-  (I_neuter_gender_U1) ! -->13 = V77_grammatical_gender_unders (V77_grammatical_gender_unders)
-  (I_didn_t_understand_error_U1) ! -->14 = V78_command_parser_error_unde (V78_command_parser_error_unde)
+  (0) ! -->1 = V66_number_understood (V66_number_understood)
+  (0) ! -->2 = V67_real_number_understood (V67_real_number_understood)
+  (0) ! -->3 = V68_truth_state_understood (V68_truth_state_understood)
+  (0) ! -->4 = V69_external_file_understood (V69_external_file_understood)
+  (540) ! -->5 = V70_time_understood (V70_time_understood)
+  (I_entire_game_U1) ! -->6 = V71_scene_understood (V71_scene_understood)
+  (I_figure_of_cover_U1) ! -->7 = V72_figure_name_understood (V72_figure_name_understood)
+  (0) ! -->8 = V73_sound_name_understood (V73_sound_name_understood)
+  (I_english_language_U1) ! -->9 = V74_natural_language_understo (V74_natural_language_understo)
+  (I_present_tense_U1) ! -->10 = V75_grammatical_tense_underst (V75_grammatical_tense_underst)
+  (I_first_person_singular_U1) ! -->11 = V76_narrative_viewpoint_under (V76_narrative_viewpoint_under)
+  (I_nominative_U1) ! -->12 = V77_grammatical_case_understo (V77_grammatical_case_understo)
+  (I_neuter_gender_U1) ! -->13 = V78_grammatical_gender_unders (V78_grammatical_gender_unders)
+  (I_didn_t_understand_error_U1) ! -->14 = V79_command_parser_error_unde (V79_command_parser_error_unde)
   (I_english_language_U1) ! -->15 = V1_language_of_play (V1_language_of_play)
   (0) ! -->16 = V12_darkness_witnessed (V12_darkness_witnessed)
   (bc_U152) ! -->17 = V26_command_prompt (V26_command_prompt)
@@ -351,13 +351,13 @@ Array Global_Vars --> 0
   (0) ! -->33 = V52_visibility_level_count (V52_visibility_level_count)
   (0) ! -->34 = V53_visibility_ceiling (V53_visibility_ceiling)
   (0) ! -->35 = V54_examine_text_printed (V54_examine_text_printed)
-  (selfobj) ! -->36 = V79_actor (V79_actor)
-  (0) ! -->37 = V80_action_in_world (V80_action_in_world)
-  (0) ! -->38 = V81_action_keeping_silent (V81_action_keeping_silent)
-  (0) ! -->39 = V82_specific_check_rulebook (V82_specific_check_rulebook)
-  (0) ! -->40 = V83_specific_carry_out_rulebo (V83_specific_carry_out_rulebo)
-  (0) ! -->41 = V84_specific_report_rulebook (V84_specific_report_rulebook)
-  (0) ! -->42 = V85_within_the_player_s_sight (V85_within_the_player_s_sight)
+  (selfobj) ! -->36 = V80_actor (V80_actor)
+  (0) ! -->37 = V81_action_in_world (V81_action_in_world)
+  (0) ! -->38 = V82_action_keeping_silent (V82_action_keeping_silent)
+  (0) ! -->39 = V83_specific_check_rulebook (V83_specific_check_rulebook)
+  (0) ! -->40 = V84_specific_carry_out_rulebo (V84_specific_carry_out_rulebo)
+  (0) ! -->41 = V85_specific_report_rulebook (V85_specific_report_rulebook)
+  (0) ! -->42 = V86_within_the_player_s_sight (V86_within_the_player_s_sight)
   (0) ! -->43 = V56_place_taken_from (V56_place_taken_from)
   (0) ! -->44 = V57_worn_hat (V57_worn_hat)
   (0) ! -->45 = V58_worn_tiara (V58_worn_tiara)
@@ -366,7 +366,8 @@ Array Global_Vars --> 0
   (0) ! -->48 = V61_etc (V61_etc)
   (0) ! -->49 = V62_unlocked_park (V62_unlocked_park)
   (0) ! -->50 = V63_courthouse_access_approve (V63_courthouse_access_approve)
-  (0) ! -->51 = V64_stranger_bump_happened (V64_stranger_bump_happened)
+  (0) ! -->51 = V64_magical_paper_received (V64_magical_paper_received)
+  (0) ! -->52 = V65_stranger_bump_happened (V65_stranger_bump_happened)
 ;
 Constant subterfuge_1 = absent;
 Constant subterfuge_2 = animate;
@@ -3936,7 +3937,7 @@ Constant alphabetised_text_49 = "QUIT";
 Constant alphabetised_text_50 = "RESTART";
 Constant alphabetised_text_51 = "RESTORE a saved game";
 Constant alphabetised_text_52 = "St Miku Crossing";
-Constant alphabetised_text_53 = "St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.";
+Constant alphabetised_text_53 = "St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.^^I see the Justice Avenue to the South, as well as the 68th Street to the West.";
 Constant alphabetised_text_54 = "Such a pretty lake, and the ducks are sweet too. I remember throwing stones at the lake to see how many times it would rebound. I don't have any stones, but I have a key...";
 Constant alphabetised_text_55 = "Such a pretty lake. Hey, now it's sparkling too!";
 Constant alphabetised_text_56 = "Suspicious Alley";
@@ -60667,7 +60668,7 @@ Global max_z_object;
             } else {
                 (say__p = 1);
                 ParaContent();
-                print "~Oh ok Mr. High-And-Mighty-Normal-Hat-Wearer. Could at least wear something cool like a tiara!";
+                print "~Oh ok Mr. High-And-Mighty-Normal-Hat-Wearer. Could at least wear something cool like a tiara!~";
                 print "^";
             }
         } else {
@@ -60802,11 +60803,19 @@ Global max_z_object;
         if (debug_rules) {
             DB_Rule(call_U2030, 830, 0);
         }
-        (say__p = 1);
-        ParaContent();
-        print "Why did I think paper would bounce? Now I'm just polluting.";
-        print "^";
-        RemoveFromPlay(I_handwritten_note_U1);
+        if (((Global_Vars-->51) == 0)) {
+            (say__p = 1);
+            ParaContent();
+            print "Why did I think paper would bounce? Now I'm just polluting.";
+            print "^";
+            RemoveFromPlay(I_handwritten_note_U1);
+        } else {
+            (say__p = 1);
+            ParaContent();
+            print "Now you go back to where you belong.";
+            print "^";
+            RemoveFromPlay(I_handwritten_note_U1);
+        }
         RulebookFails(0, 0);
         rtrue;
     } else {
@@ -60839,6 +60848,7 @@ Global max_z_object;
         print "Well, that worked out nicely.";
         print "^";
         MoveObject(I_handwritten_note_U1, player);
+        ((Global_Vars-->51) = 1);
         RemoveFromPlay(I_locked_safe_U1);
         RulebookFails(0, 0);
         rtrue;
@@ -60880,8 +60890,8 @@ Global max_z_object;
         if (debug_rules) {
             DB_Rule(call_U2033, 833, 0);
         }
-        if (((Global_Vars-->51) == 0)) {
-            ((Global_Vars-->51) = 1);
+        if (((Global_Vars-->52) == 0)) {
+            ((Global_Vars-->52) = 1);
             (say__p = 1);
             ParaContent();
             print ">A strange man bumps into you.";

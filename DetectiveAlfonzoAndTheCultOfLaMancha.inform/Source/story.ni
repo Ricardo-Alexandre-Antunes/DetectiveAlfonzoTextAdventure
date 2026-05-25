@@ -43,7 +43,9 @@ The description of the 68th Street is "68th Street looks as busy, noisy and smel
 Both murders happened in another part of the town, I think have to go east.".
 
 The St Miku Crossing is a room. The 68th Street is west.
-The description of the St Miku Crossing is "St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.".
+The description of the St Miku Crossing is "St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.
+
+I see the Justice Avenue to the South, as well as the 68th Street to the West.".
 
 The Afonso Sapienze's Parent's Apartment is a room. West is the The Daniel Louis-Campbell Park.
 The description of the Afonso Sapienze's Parents' Apartment is
@@ -337,7 +339,7 @@ Instead of talking to Mike:
 		if worn-tiara is true:
 			say "'Oh ok Mr. High-And-Mighty-Tiara-Wearer. It's not like I'm the only weirdo here!";
 		otherwise:
-			say "'Oh ok Mr. High-And-Mighty-Normal-Hat-Wearer. Could at least wear something cool like a tiara!";
+			say "'Oh ok Mr. High-And-Mighty-Normal-Hat-Wearer. Could at least wear something cool like a tiara!'";
 	otherwise:
 		say "'I can finally see the ducks! I'm so excited to finally enter the DLC Park!'";
 
@@ -387,7 +389,7 @@ Understand "deusa da justiça" as the giant statue of Themis.
 The lake is an object in the Daniel Louis-Campbell Park.
 The description of the lake is "Such a pretty lake, and the ducks are sweet too. I remember throwing stones at the lake to see how many times it would rebound. I don't have any stones, but I have a key...".
 
-magical-paper-received is a truth state that varies;
+magical-paper-received is a truth state that varies.
 magical-paper-received is false.
 
 Instead of throwing the old key at the lake:

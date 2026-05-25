@@ -1,0 +1,417 @@
+
+
+
+
+You wake up from a quick nap in your office. You look around - you clearly haven't cleaned it in a while. How could you, with the biggest case you've ever faced still unsolved?
+
+Detective Afonzo and The Cult of La Mancha
+An Interactive Fiction by Alien Cat Studios
+Release 1 / Serial number 260525 / Inform 7 v10.1.2 / D
+
+Office
+ My dusty old office, I've solved so many crimes here... but none like the mystery im facing now.
+
+You can see a desk, a closet (closed) and a rack (on which are a green hat, a red hat, a black hat, a tiara and a trophy) here.
+
+>Open closet
+What a mess... well, look what we have here... this pile of paper has my current cases, and it's piling up... I should take a look at these.
+
+>Look at cases
+You can't see any such thing.
+
+>Look at pile of paper
+There are 2 cases here. Another couple just like my parents, found in Bingo Street... and a judge killed in his own chambers. He was working on some case about a cosmetics company.
+
+>Go to Bingo Street
+You can't see any such thing.
+
+>Travel to Bingo Street
+That's not a verb I recognise.
+
+>Look at desk
+My desk is a mess... I really need to clean this up...
+
+>Clean desk
+There we go, I got rid of all the junk now!
+
+>Dirty desk
+That's not a verb I recognise.
+
+>Look at desk
+My desk is spotless now!
+
+On the desk are a doctor's note, an old newspaper and a tablet.
+
+>Look at doctor's note
+A note from an appointment that reads: "severe case of amnesia, causing a memory loss of the past 2 weeks.". It's all a fog to me.
+
+>Read newspaper
+My parents were pretty important in stopping the corruption in this city... I'm sure a lot of people would want them dead. It's not surprising this is in the cover of the newspaper... but I will find out who did this!
+
+>Use tablet
+That's not a verb I recognise.
+
+>Look at tablet
+A tablet where I keep my diary... but for some reason the past 2 weeks have been erased... precisely the time I lost my memory... stupid thing, the first time it would actually be useful I forgot to write in it!
+
+>Look at trophy
+I was so good at Mark Kart 64... winning this tournament was a breeze!
+
+>Look at tiara
+It shines so brightly... more than every other hat...
+
+>Wear tiara
+(first taking the tiara)
+Nobody can question my fashion! I will walk out with a tiara if I want!
+
+>
+I beg your pardon?
+
+>Look at green hat
+This hat is perfect for St. Patrick celebrations.
+
+>Leave office
+I only understood you as far as wanting to leave.
+
+>Exit office
+I only understood you as far as wanting to exit.
+
+>Get out
+I could leave, but to where? I should probably read my cases first.
+
+>Go to Bingo Street
+You can't see any such thing.
+
+>Exit house
+I only understood you as far as wanting to exit.
+
+>Leave house
+I only understood you as far as wanting to leave.
+
+>Leave apartment
+I only understood you as far as wanting to leave.
+
+>leave office
+I only understood you as far as wanting to leave.
+
+>Let me out
+That's not a verb I recognise.
+
+>Read cases
+You can't see any such thing.
+
+>Look at pile of paper
+There are 2 cases here. Another couple just like my parents, found in Bingo Street... and a judge killed in his own chambers. He was working on some case about a cosmetics company.
+
+>Read cases
+You can't see any such thing.
+
+>Read pile of paper
+The first case happened a week ago... they were found dead in a trash can. According to the police report, they had very peculiar injuries... it looks like they fought with the attacker.
+As for the second case, it was just delivered to me. The body is still in the courthouse, so I should head there soon. Judge Richard was found dead in his chambers found with a knife in his head. A judge can get a lot of enemies, but he was only working on one case at the time... I should go there.
+
+>Go to courthouse
+You can't see any such thing.
+
+>Go to trash can
+You can't see any such thing.
+
+>Leave office
+I only understood you as far as wanting to leave.
+
+>Leave house
+I only understood you as far as wanting to leave.
+
+>Let me leave
+That's not a verb I recognise.
+
+>Leave
+
+The 68th Street
+68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.
+
+Both murders happened in another part of the town, I think have to go east.
+
+>Go east
+
+St Miku Crossing
+St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.
+
+>Go to courthouse
+You can't see any such thing.
+
+>Go North
+You can't go that way.
+
+>Go South
+
+Justice Avenue
+Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.
+
+The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.
+
+They don't even notice me walk by.
+
+There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court" Americano is and to the west, towards Bingo Street.
+
+You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.
+
+>Go to Mike
+You can't see any such thing.
+
+>Approach Mike
+That's not a verb I recognise.
+
+>Talk to Mike
+"I wanted to see the small ducks, but they are under construction..."
+...
+"I mean the park, not the ducks!
+Oh. Ok... I'm just gonna go now...
+"Oh ok Mr. High-And-Mighty-Tiara-Wearer. It's not like I'm the only weirdo here!
+
+>Go South
+
+El Court" Americano - Main Hall
+I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.
+
+The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.
+
+People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.
+
+On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.
+
+There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.
+
+You can see a receptionist here.
+
+>Takl to receptionist
+That's not a verb I recognise.
+
+>Talk to receptionist
+Hello, may I know where Judge Richard's chambers are?
+"I'm sorry, but he is quite busy at the moment, you need to return another day."
+I am Detective Alfonzo. I was called here to investigate his death.
+"My apologies... it's that room to the right."
+I thought my hat would give it away...
+"Well that... certainly looks nice on you!"
+
+>Go inside
+>A strange man bumps into you.
+Hey! Watch where you're going!
+He's already gone... could have at least apologized.
+
+El Court" Americano - Judge Richard's Office
+I remember hearing about this guy from my mother... I think they worked together a couple of times...
+
+This is one small office... looks old, older than the rest of the building, like it's holding on to a long forgotten past.
+
+It's well kept though, despite... everything.
+
+You can see a Fancy Desk (on which is an Open Letter), a Judge Richard's Dead Body, a Blood Stain and a Bookshelf here.
+
+>Examine fancy desk
+This desk has some fine craftsmanship, suiting for a judge. Though it's starting to show it's age.
+
+I should take a closer look at it.
+
+On the Fancy Desk is an Open Letter.
+
+>Look at open letter
+Hold on, this letter is in my mother's handwritting... looks like they were close, much closer than i thought.
+
+They were working on a case together for her activism, but I can't make out the rest of it though.
+
+>Investigate Judge Richard's Dead Body
+That's not a verb I recognise.
+
+>Examine Judge Richard's Dead Body
+Poor old bastard. Stabbed in the back of the head, whoever did this wanted to make sure he didn't walk out of here alive.
+
+The knife is missing.
+
+>Examine blood stain
+There's a trail of blood leading underneath the bookshelf.
+
+>Examine bookshelf
+An old bookshelf, filled to the brim with all kinds of books and memorabilia
+
+>Examine books
+You can't see any such thing.
+
+>Move bookshelf
+Nothing obvious happens.
+
+>Examine memorabilia
+You can't see any such thing.
+
+>Investigate memorabilia
+That's not a verb I recognise.
+
+>Look under bookshelf
+Under the Bookshelf you find a Bloody Knife.
+
+>Take bloody knife
+Taken.
+
+>Investigate bloody knife
+That's not a verb I recognise.
+
+>Examine bloody knife
+Must be the murder weapon. The blood's gone dry.
+
+There's a symbol of a hand on the handle. The blade looks odd... now that i look at it, this kind of thing could do some real damage if handled improperly, the same kind of damage found on that couple in Bingo Street.
+
+This thing was hiding under the bookshelf... I wonder if there are other hidden things i could find.
+
+>Look under bookshelf
+You find nothing of interest.
+
+>Examine under bookshelf
+You can't see any such thing.
+
+>Leave
+
+El Court" Americano - Main Hall
+I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.
+
+The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.
+
+People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.
+
+On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.
+
+There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.
+
+You can see a receptionist here.
+
+>Leave
+
+Justice Avenue
+Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.
+
+The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.
+
+They don't even notice me walk by.
+
+There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court" Americano is and to the west, towards Bingo Street.
+
+You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.
+
+>Go West
+
+Bingo Street
+Bingo Street is like a louder, more run down version of 68th Street, if that's even possible. The atmosphere feels similar, but the people don't, they feel more like the ones on Justice Avenue, only without all the money.
+
+The cops don't usually come here, they're paid well not to... damn bastards.
+
+For some reason they decided to build a damn company here, i'd go in but the place is in repairs from what it looks like, about time if ya ask me, thought it'd be better if the people got that treatment first, it's been needed for a long ass time.
+
+>Go East
+
+Justice Avenue
+Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.
+
+The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.
+
+They don't even notice me walk by.
+
+There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court" Americano is and to the west, towards Bingo Street.
+
+You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.
+
+>Go South
+
+El Court" Americano - Main Hall
+I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.
+
+The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.
+
+People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.
+
+On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.
+
+There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.
+
+You can see a receptionist here.
+
+>Go inside
+
+El Court" Americano - Judge Richard's Office
+I remember hearing about this guy from my mother... I think they worked together a couple of times...
+
+This is one small office... looks old, older than the rest of the building, like it's holding on to a long forgotten past.
+
+It's well kept though, despite... everything.
+
+You can see a Fancy Desk (on which is an Open Letter), a Judge Richard's Dead Body, a Blood Stain and a Bookshelf here.
+
+>Look under desk
+Under the Fancy Desk you find an old key.
+
+>Taken old key
+That's not a verb I recognise.
+
+>Take old key
+A key? I wonder what I could do with this...
+
+Taken.
+
+>Leave
+
+El Court" Americano - Main Hall
+I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day.
+
+The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.
+
+People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.
+
+On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.
+
+There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.
+
+You can see a receptionist here.
+
+>Leave
+
+Justice Avenue
+Back in the Justice Avenue. Looks like the Park is finally open. Maybe I should go inside and look at the ducks.
+
+You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and Mike here.
+
+>Talk to Mike
+"I can finally see the ducks! I'm so excited to finally enter the DLC Park!"
+
+>Enter park
+
+Daniel Louis-Campbell Park
+I used to come here as a kid, there was a playground further in where mom and dad used to play catch with me.
+
+Looks like there is a lake here. So pretty.
+
+You can see a closed park gate that leads to the Daniel Louis-Campbell Park. and a lake here.
+
+>Go to gate
+You can't see any such thing.
+
+>Open gate
+That's already open.
+
+>Investigate lake
+That's not a verb I recognise.
+
+>Examine lake
+Such a pretty lake, and the ducks are sweet too. I remember throwing stones at the lake to see how many times it would rebound. I don't have any stones, but I have a key...
+
+>Throw key
+Dropped.
+
+>Pick up key
+A key? I wonder what I could do with this...
+
+Taken.
+
+>Throw key at lake
+Oh. It sunk immediatly. Oops.
+
+>script off
+Transcripting is already off.
