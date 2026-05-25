@@ -9,7 +9,7 @@
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>1</key><dict>
-        <key>Filename</key><string>C:\Users\ricar\OneDrive\Ambiente de Trabalho\DetectiveAlfonzoTextAdventure\DetectiveAlfonzoAndTheCultOfLaMancha.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\MCAnd\Documents\Inform\Projects\DetectiveAlfonzoTextAdventure\DetectiveAlfonzoTextAdventure\DetectiveAlfonzoAndTheCultOfLaMancha.inform\Source\story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
@@ -1245,5 +1245,82 @@
         <key>Title</key><string>Section 9 - Debugging Inform -</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
+    </dict>
+    <key>178</key><dict>
+        <key>Filename</key><string>C:\Users\MCAnd\Documents\Inform\Extensions\Eric Eve\Hiding Under.i7x</string>
+        <key>Line</key><integer>1</integer>
+        <key>Title</key><string>--</string>
+        <key>Level</key><integer>0</integer>
+        <key>Indentation</key><integer>0</integer>
+    </dict>
+    <key>179</key><dict>
+        <key>Filename</key><string>C:\Users\MCAnd\Documents\Inform\Extensions\Eric Eve\Hiding Under.i7x</string>
+        <key>Line</key><integer>4</integer>
+        <key>Title</key><string>Part 1 - The Underconcealment Relation</string>
+        <key>Level</key><integer>3</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>180</key><dict>
+        <key>Filename</key><string>C:\Users\MCAnd\Documents\Inform\Extensions\Eric Eve\Hiding Under.i7x</string>
+        <key>Line</key><integer>10</integer>
+        <key>Title</key><string>Part 2 - Phrases</string>
+        <key>Level</key><integer>3</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>181</key><dict>
+        <key>Filename</key><string>C:\Users\MCAnd\Documents\Inform\Extensions\Eric Eve\Hiding Under.i7x</string>
+        <key>Line</key><integer>19</integer>
+        <key>Title</key><string>Part 3 - Extensions to Underside</string>
+        <key>Level</key><integer>3</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>182</key><dict>
+        <key>Filename</key><string>C:\Users\MCAnd\Documents\Inform\Extensions\Eric Eve\Hiding Under.i7x</string>
+        <key>Line</key><integer>33</integer>
+        <key>Title</key><string>Part 4 - Standalone Material</string>
+        <key>Level</key><integer>3</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>183</key><dict>
+        <key>Filename</key><string>C:\Users\MCAnd\Documents\Inform\Extensions\Eric Eve\Hiding Under.i7x</string>
+        <key>Line</key><integer>35</integer>
+        <key>Title</key><string>Chapter 1 - Action Definition for Putting Under</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>184</key><dict>
+        <key>Filename</key><string>C:\Users\MCAnd\Documents\Inform\Extensions\Eric Eve\Hiding Under.i7x</string>
+        <key>Line</key><integer>51</integer>
+        <key>Title</key><string>Chapter 2 - Looking Under</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>185</key><dict>
+        <key>Filename</key><string>C:\Users\MCAnd\Documents\Inform\Extensions\Eric Eve\Hiding Under.i7x</string>
+        <key>Line</key><integer>65</integer>
+        <key>Title</key><string>Part 5 - Common Grammar</string>
+        <key>Level</key><integer>3</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>186</key><dict>
+        <key>Filename</key><string>C:\Users\MCAnd\Documents\Inform\Extensions\Eric Eve\Hiding Under.i7x</string>
+        <key>Line</key><integer>70</integer>
+        <key>Title</key><string>Part 6 - Taking something that hides something underneath</string>
+        <key>Level</key><integer>3</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>187</key><dict>
+        <key>Filename</key><string>C:\Users\MCAnd\Documents\Inform\Extensions\Eric Eve\Hiding Under.i7x</string>
+        <key>Line</key><integer>72</integer>
+        <key>Title</key><string>Chapter 1 - Common Material</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>188</key><dict>
+        <key>Filename</key><string>C:\Users\MCAnd\Documents\Inform\Extensions\Eric Eve\Hiding Under.i7x</string>
+        <key>Line</key><integer>89</integer>
+        <key>Title</key><string>Chapter 2 - Additional rule for use with Underside</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>2</integer>
     </dict>
 </dict></plist>
