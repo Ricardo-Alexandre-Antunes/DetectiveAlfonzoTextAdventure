@@ -222,7 +222,7 @@ Instead of wearing the tiara:
 	
 Instead of going:
 	if knows-location is false:
-		say "I could leave, but to where? I should probably take a look at my cases first.";
+		say "I could leave, but to where? I should probably read my cases first.";
 	otherwise:
 		if worn-hat is false:
 			say "It's chilly outside. I should probably wear a hat.";
@@ -307,16 +307,16 @@ Instead of opening the park gate:
 Instead of unlocking the park gate with something:
 	say "I should just go back to the task at hand.".
 
-Miguel is a man in Justice Avenue.
-The description of Miguel is "That guy looks sad... he's wearing some weird videogame t-shirt. I wonder why he is sad?".
+Mike is a man in Justice Avenue.
+The description of Mike is "That guy looks sad... he's wearing some weird videogame t-shirt. I wonder why he is sad?".
 
-Understand "man" as Miguel.
-Understand "sad man" as Miguel.
-Understand "homem" as Miguel.
-Understand "miguel" as Miguel.
-Understand "guy" as Miguel.
+Understand "man" as Mike.
+Understand "sad man" as Mike.
+Understand "homem" as Mike.
+Understand "mike" as Mike.
+Understand "guy" as Mike.
 
-Instead of talking to Miguel:
+Instead of talking to Mike:
 	say "'I wanted to see the small ducks, but they are under construction...'";
 	say "...";
 	say "'I mean the park, not the ducks!";
