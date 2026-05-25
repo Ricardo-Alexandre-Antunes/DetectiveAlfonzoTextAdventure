@@ -321,6 +321,10 @@ Instead of talking to Mike:
 	say "...";
 	say "'I mean the park, not the ducks!";
 	say "Oh. Ok... I'm just gonna go now...".
+	if worn-tiara is true:
+		say "'Oh ok Mr. High-And-Mighty-Tiara-Wearer. It's not like I'm the only weirdo here!";
+	otherwise:
+		say "'Oh ok Mr. High-And-Mighty-Normal-Hat-Wearer. Could at least wear something cool like a tiara!";
 
 [ El Court Americano Objects ]
 
@@ -345,6 +349,9 @@ Instead of talking to the receptionist:
 		say "'I'm sorry, but he is quite busy at the moment, you need to return another day.'";
 		say "I am Detective Alfonzo. I was called here to investigate his death.";
 		say "'My apologies... it's that room to the right.'";
+		say "I thought my hat would give it away...";
+		if worn-tiara is true:
+			say "'Well that... certainly looks nice on you!'";
 		now courthouse-access-approved is true;
 	else:
 		say "'The Judge was a good man. He was always fair in his trials. Why would someone kill him?...'".
