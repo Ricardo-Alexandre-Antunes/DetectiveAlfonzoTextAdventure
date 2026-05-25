@@ -1,5 +1,7 @@
 "Detective Afonzo and The Cult of La Mancha" by Alien Cat Studios
 
+Include Hiding Under by Eric Eve.
+
 When play begins:
 	say "You wake up from a quick nap in your office. You look around - you clearly haven't cleaned it in a while. How could you, with the biggest case you've ever faced still unsolved?";
 
@@ -34,7 +36,9 @@ The Office is a room. Outside is The 68th Street.
 The description of the office is "My dusty old office, I've solved so many crimes here... but none like the mystery im facing now."
 
 The 68th Street is a room.
-The description of the 68th Street is "68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.".
+The description of the 68th Street is "68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.
+
+Both murders happened in another part of the town, I think have to go east.".
 
 The St Miku Crossing is a room. The 68th Street is west.
 The description of the St Miku Crossing is "St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.".
@@ -55,7 +59,7 @@ I should have a look around, but not now, I don't think i'm ready for this yet..
 
 The Justice Avenue is a room. The St Miku Crossing is north.
 The description of the Justice Avenue is
-	"Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.
+"Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.
 
 The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.
 
@@ -86,7 +90,12 @@ There's something strange to the East, i can see a small door almost completly c
 
 
 The Judge Richards's Chamber is a room. Outside is the El Court Americano.
-The description of Judge Richards's Chamber is "I think I remember this guy... didn't I use to come here with my mother when I was a child? Maybe she was on one of his trials in the past..."
+The printed name of the Judge Richards's Chamber is "El Court' Americano - Judge Richard's Office".
+The description of Judge Richards's Chamber is "I remember hearing about this guy from my mother... I think they worked together a couple of times...
+
+This is one small office... looks old, older than the rest of the building, like it's holding on to a long forgotten past. 
+
+It's well kept though, despite... everything.".
 
 
 
@@ -320,7 +329,7 @@ Instead of talking to Mike:
 	say "'I wanted to see the small ducks, but they are under construction...'";
 	say "...";
 	say "'I mean the park, not the ducks!";
-	say "Oh. Ok... I'm just gonna go now...".
+	say "Oh. Ok... I'm just gonna go now...";
 	if worn-tiara is true:
 		say "'Oh ok Mr. High-And-Mighty-Tiara-Wearer. It's not like I'm the only weirdo here!";
 	otherwise:
@@ -365,6 +374,48 @@ Understand "themis" as the giant statue of Themis.
 Understand "justice statue" as the giant statue of Themis.
 Understand "deusa da justica" as the giant statue of Themis.
 Understand "deusa da justiça" as the giant statue of Themis.
+
+
+[Judge Richard's Chamber Objects ]
+A Fancy Desk is in the Judge Richards's Chamber.
+The description of the Fancy Desk is
+"This desk has some fine craftsmanship, suiting for a judge. Though it's starting to show it's age.
+
+I should take a closer look at it.".
+
+An Open Letter is on the Fancy Desk.
+The description of the Open Letter is
+"Hold on, this letter is in my mother's handwritting... looks like they were close, much closer than i thought. 
+
+They were working on a case together for her activism, but I can't make out the rest of it though.".
+
+
+An Old Key is hidden under the Fancy Desk.
+The description of the Old Key is
+"Some old ass key, might be useful.".
+The Old Key is portable.
+
+A Judge Richard's Dead Body is in the Judge Richards's Chamber.
+The description of the Richard's Dead Body is
+"Poor old bastard. Stabbed in the back of the head, whoever did this wanted to make sure he didn't walk out of here alive.
+
+The knife is missing.".
+
+A Blood Stain is in the Judge Richards's Chamber.
+The description of the Blood Stain is
+"There's a trail of blood leading underneath the bookshelf.".
+
+A Bookshelf is in the Judge Richards's Chamber.
+The description of the Bookshelf is
+"An old bookshelf, filled to the brim with all kinds of books and memorabilia".
+
+A Bloody Knife is hidden under the Bookshelf.
+The description of the Bloody Knife is
+"Must be the murder weapon. The blood's gone dry.
+
+There's a symbol of a hand on the handle. The blade looks odd... now that i look at it, this kind of thing could do some real damage if handled improperly, the same kind of damage found on that couple in Bingo Street.
+
+This thing was hiding under the bookshelf... I wonder if there are other hidden things i could find."
 
 [ Unknown person bumping into the detective ]
 
