@@ -31,61 +31,85 @@ A hat is usually unworn.
 [ Rooms ]
 
 The Office is a room. Outside is The 68th Street.
-The description of the office is "My office, where I've solved so many crimes... but now I face my biggest mystery."
+The description of the office is "My dusty old office, I've solved so many crimes here... but none like the mystery im facing now."
 
 The 68th Street is a room.
-[ AI ] The description of the 68th Street is "The 68th Street is busy, noisy, and covered in advertisements. Just another normal day in the city.".
+The description of the 68th Street is "68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.".
 
 The St Miku Crossing is a room. The 68th Street is west.
-[ AI ] The description of the St Miku Crossing is "A colorful crossing surrounded by shops, screens, and people moving in every direction.".
+The description of the St Miku Crossing is "St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.".
 
 The Afonso Sapienze's Apartment is a room. Outside is the St Miku Crossing.
-[ AI ] The description of the Afonso Sapienze's Apartment is "Your apartment. It is not much, but at least it is yours.".
+The description of the Afonso Sapienze's Apartment is "My apartment... i don't even know why i own this place, i barely use it.".
 
 The Afonso Sapienze's Parent's Apartment is a room. Outside is the St Miku Crossing.
-[ AI ] The description of the Afonso Sapienze's Parents' Apartment is
-	"The apartment is painfully quiet. The kind of quiet that does not feel peaceful, but abandoned.
+The description of the Afonso Sapienze's Parents' Apartment is
+	"This place feels different than before, it's strange, physically it still looks the same, but it feels like there's a gaping hole where it's soul
+used to be.
 
-Everything is still mostly where it should be, almost frozen in time. The furniture, the old family photos, the smell of dust and closed windows... it all makes your chest feel heavier.
+It's missing its color, it's personality... it's nothing but an empty husk now.
 
-This used to be a home. Now it feels like evidence.".
+I should have a look around, but not now, I don't think i'm ready for this yet...".
 
 
 
 The Justice Avenue is a room. The St Miku Crossing is north.
-[ AI ] The description of the Justice Avenue is
-	"Justice Avenue is wider, cleaner, and quieter than most streets in the city. There are fewer advertisements here, as if even the corporations are afraid to be too loud near the court.
+The description of the Justice Avenue is
+	"Justice Avenue looks as tidy as ever, it's the home of the city's rich and powerful, where the oligarchs and polititians come together to scheme whatever greedy plans they have... and they call it Justice, heh.
 
-People in expensive suits walk past you with briefcases, phones, and serious expressions. The street clearly belongs to the rich, but not completely. A few homeless people sit near the walls and corners, ignored by almost everyone who passes.
+The ads here are different, instead of the newest movies and products, it's fine dining and jewelry. Even the people look different, the neon bright colors are now replaced by more sublte, darker tones, the hoodies turn to suits and ties and the smiles to stone cold expressions.
 
-To the east, you can see the entrance to Daniel Louis-Campbell Park, but the gate is closed. To the south stands the entrance to El Court' Americano. To the west, the street continues toward Bingo Street.".
+They don't even notice me walk by.
+
+There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court' Americano is and to the west, towards Bingo Street.".
 
 The Bingo Street is a room. The Justice Avenue is east.
-[ AI ] The description of Bingo Street is "Bingo Street is loud, colorful, and chaotic. The sound of machines and distant shouting fills the air.".
+The description of Bingo Street is "Bingo Street is like a louder, more run down version of 68th Street, if that's even possible. The atmosphere feels similar, but the people don't, they feel more like the ones on Justice Avenue, only without all the money. 
 
-The El Court' Americano is a room. Outside is the Justice Avenue.
-[ AI ] The printed name of the El Court Americano is "El Court' Americano - Entrance".
-[ AI ] The description of the El Court Americano is 
-	"The courtroom entrance is enormous and strangely beautiful, mixing classical architecture with cold futurism. White marble covers the floor and walls, while brutalist concrete pillars rise sharply toward the ceiling. Huge LED panels glow above the room, bathing the semi-classical statues and minimalist furniture in artificial light.
+The cops don't usually come here, they're paid well not to... damn bastards. 
 
-Crowds of people move from one side to the other, almost all carrying books, documents, or tablets. Some speak quickly into phones, others argue in low voices, and a few hurry past without even looking at you. It is impossible to find even a second of silence here.
+For some reason they decided to build a damn company here, i'd go in but the place is in repairs from what it looks like, about time if ya ask me, thought it'd be better if the people got that treatment first, it's been needed for a long ass time.".
 
-Behind a polished counter stands a receptionist, apparently the only person in the room who might actually answer a question.".
+The El Court Americano is a room. Outside is the Justice Avenue. North is the Justice Avenue.
+The printed name of the El Court Americano is "El Court' Americano - Main Hall".
+The description of the El Court Americano is 
+	"I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day. 
+
+The architecture of it somehow strikes a perfect balance between between classic, roman-inspired designs and a smooth, minimalism-heavy futuristic style.
+
+People are walking all over the place with books in their hands, phones in their ears or holding their bags while sprinting somewhere as if they're late. I doubt any of them would talk.
+
+On the far end of the room there's a big reception area, with three spots for receptionists to welcome in visitors and guide them to where they need to go though, at this time, there's only one present, and she looks free to talk to, maybe i could talk to her.
+
+There's something strange to the East, i can see a small door almost completly covered by a group of plants leaning over to it, like they we're placed there to hide it.".
 
 
 
-The Suspicious Alley is a room. The El Court' Americano is west.
-[ AI ] The description of the Suspicious Alley is "A narrow alley hidden from the main streets. The air feels colder here.".
+The Judge Richards's Chamber is a room. Outside is the El Court Americano.
+The description of Judge Richards's Chamber is "I think I remember this guy... didn't I use to come here with my mother when I was a child? Maybe she was on one of his trials in the past..."
 
+
+
+The Suspicious Alley is a room. The El Court Americano is west.
+The description of the Suspicious Alley is "The door lead to a narrow, stinking alleyway, isolated from the rest of the city.
+
+There's rats all over and spiders crawling on the walls. There is no way to go but forwards, to the darkness.".
 
 The Palace is a room.
 The printed name of the Palace is "Tiara Palace".
-[ AI ] The description of the Palace is "Tiara Palace rises above the street with ridiculous elegance.".
+The description of the Palace is "Of all the places i expected to find here, a damn palace is the last one.
+It doesn't really look like a palace, it's more like a rainbow, glittery nightclub stuck at the end of a long, narrow alleyway. 
+
+It has a small little entrance sitting at the bottom of a facade that still manages to be imposing desipite its proportions.
+
+There's a bouncer dressed like a clown waiting at the door, it doesn't look like he's gonna let me in, not while looking like this i'm guessin'."..
 Outside is the Suspicious Alley.
 
 The Daniel Louis-Campbell Park is a room.
 The printed name of the Daniel Louis-Campbell Park is "Daniel Louis-Campbell Park".
-[ AI ] The description of the Daniel Louis-Campbell Park is "The park is closed for construction, so you probably should not be here yet.".
+The description of the Daniel Louis-Campbell Park is "I used to come here as a kid, there was a playground further in where mom and dad used to play catch with me. 
+
+It looks like it's closed for renovations. No way i'm getting in.".
 
 [ Objects ]
 
@@ -122,16 +146,16 @@ Instead of cleaning the desk:
 		now the doctor's note is not undescribed;
 		now the description of the doctor's note is "A note from an appointment that reads: 'severe case of amnesia, causing a memory loss of the past 2 weeks.'. It's all a fog to me.";
 		now the old newspaper is not undescribed;
-		now the description of the old newspaper is "A newspaper from 2 weeks ago with a disturbing front page... 'Corruption may win - João and Maria Alfonzo found dead in a dark alley'. How can't I remember that day?";
+		now the description of the old newspaper is "A newspaper from 2 weeks ago with a disturbing front page... 'Corruption may win - João and Maria Sapienze found dead in a dark alley'. How can't I remember that day?";
 		now the tablet is not undescribed;
-		now the description of the tablet is "A tablet where I keep my diary... but for some reason the past 2 weeks have been erased... precisely the time I lost my memory...";
+		now the description of the tablet is "A tablet where I keep my diary... but for some reason the past 2 weeks have been erased... precisely the time I lost my memory... stupid thing, the first time it would actually be useful I forgot to write in it!";
 	else:
 		say "The desk is already pretty clean!";
 
 Instead of reading the doctor's note:
-	say "There are more comments here... why did they perform an x-ray on me? I can't understand it.";
+	say "There are more comments here... why did they perform an x-ray on me? I can't understand it. It also says I must have gotten pretty hurt in the head to forget the past 2 weeks. That makes sense.";
 
-Instead of examining the old newspaper:
+Instead of reading the old newspaper:
 	say "My parents were pretty important in stopping the corruption in this city... I'm sure a lot of people would want them dead. It's not surprising this is in the cover of the newspaper... but I will find out who did this!";
 
 A closet is in the office.
@@ -157,6 +181,7 @@ Instead of opening the closet:
 Instead of reading the pile of paper:
 	say "The first case happened a week ago... they were found dead in a trash can. According to the police report, they had very peculiar injuries... it looks like they fought with the attacker.";
 	say "As for the second case, it was just delivered to me. The body is still in the courthouse, so I should head there soon. Judge Richard was found dead in his chambers found with a knife in his head. A judge can get a lot of enemies, but he was only working on one case at the time... I should go there.";
+	now knows-location is true;
 	
 Instead of reading the NSFW Magazine:
 	say "Well well well... those sure are some curves I can get behind. Meoooow!";
@@ -207,8 +232,6 @@ Instead of going:
 
 
 
-[ All AI From here ]
-
 [ Parents' Apartment Logic ]
 
 judge-clue-received is a truth state that varies.
@@ -219,19 +242,11 @@ Afonzo-entered-parents-apartment is false.
 
 Before going east from St Miku Crossing:
 	if judge-clue-received is false:
-		say "You stop in front of the apartment door, your hand hovering over the handle.
-
-The wound is still a little too fresh.
-
-'I don't think I'm ready to get in here,' you whisper to yourself.
-
-You take a step back.
-
-'I miss them.'";
+		say "I don't think going in here will do me any good. I must hurry and solve the case first, and then I can go visit the past.";
 		stop the action;
 	else if Afonzo-entered-parents-apartment is false:
 		now Afonzo-entered-parents-apartment is true;
-		say "You stand in front of the apartment door for longer than you would like to admit.
+		say " You stand in front of the apartment door for longer than you would like to admit.
 
 Your hand trembles slightly as you reach for the handle. Opening this door feels wrong, almost like disturbing a grave.
 
@@ -239,6 +254,8 @@ With pain in your chest and hesitation in every movement, you finally unlock the
 		continue the action.
 
 [ Objects inside the parents' apartment ]
+
+[ AI 
 
 The locked safe is a closed locked openable container in the Afonso Sapienze's Parents' Apartment.
 The printed name of the locked safe is "locked safe".
@@ -269,12 +286,15 @@ Understand "handwritten note" as the handwritten note.
 Understand "paper" as the handwritten note.
 Understand "uj vjwlqj" as the handwritten note.
 
+]
+
+
 [ Justice Avenue Objects ]
 
 The park gate is a locked door.
 The park gate is east of Justice Avenue and west of Daniel Louis-Campbell Park.
-The printed name of the park gate is "closed park gate".
-The description of the park gate is "A tall metal gate blocking the entrance to Daniel Louis-Campbell Park. A sign attached to it reads: 'PARK CLOSED FOR CONSTRUCTION WORKS.'".
+The printed name of the park gate is "closed park gate that leads to the Daniel Louis-Campbell Park.".
+The description of the park gate is "It seems they are still doing work on the DLC Park. Maybe I'll be able to come here later.'".
 
 Understand "gate" as the park gate.
 Understand "closed gate" as the park gate.
@@ -282,13 +302,13 @@ Understand "park entrance" as the park gate.
 Understand "park gate" as the park gate.
 
 Instead of opening the park gate:
-	say "You try the gate, but it is firmly locked. The park is closed for construction.".
+	say "It's still under construction...".
 
 Instead of unlocking the park gate with something:
-	say "You do not have anything that can unlock the park gate.".
+	say "I should just go back to the task at hand.".
 
 Miguel is a man in Justice Avenue.
-The description of Miguel is "Miguel is standing sadly near the closed park gate. He is wearing a sweatshirt with art from a popular game on it, and he looks like someone whose entire day has been ruined by a locked gate.".
+The description of Miguel is "That guy looks sad... he's wearing some weird videogame t-shirt. I wonder why he is sad?".
 
 Understand "man" as Miguel.
 Understand "sad man" as Miguel.
@@ -297,44 +317,41 @@ Understand "miguel" as Miguel.
 Understand "guy" as Miguel.
 
 Instead of talking to Miguel:
-	say "'I wanted to see the duckies, but they are under construction,' Miguel says sadly.
-
-He pauses.
-
-'The park, I mean... not the duckies.'".
+	say "'I wanted to see the small ducks, but they are under construction...'";
+	say "...";
+	say "'I mean the park, not the ducks!";
+	say "Oh. Ok... I'm just gonna go now...".
 
 [ El Court Americano Objects ]
 
 courthouse-access-approved is a truth state that varies.
 courthouse-access-approved is false.
 
-Before going north from the El Court' Americano:
+Before going to Judge Richards's Chamber:
 	if courthouse-access-approved is false:
-		say "The automatic doors refuse to open. A red light flashes above them. You probably need permission from someone at the reception desk first.";
+		say "I don't really know where Judge Richards's chambers are... perhaps I should look for someone who knows.";
 		stop the action.
 
 The receptionist is a woman in the El Court Americano.
-The description of the receptionist is "The receptionist looks exhausted but efficient. She types quickly, answers phone calls, stamps documents, and somehow still notices you staring at the doors.".
+The description of the receptionist is "This lady seems competent. And she is typing so fast too. And cute too. Maybe I can ask her out on a date after I solve this case.".
 
-Understand "rececionista" as the receptionist.
 Understand "receptionist" as the receptionist.
 Understand "woman" as the receptionist.
 Understand "lady" as the receptionist.
 
 Instead of talking to the receptionist:
 	if courthouse-access-approved is false:
-		say "'Detective Afonzo?' the receptionist asks, looking up from her screen. 'You are expected. Justice Avenue access has been approved.'
-
-She presses a button below the counter. The red light above the doors turns green.
-
-'Please proceed. And try not to disturb the hearings.'";
+		say "Hello, may I know where Judge Richard's chambers are?";
+		say "'I'm sorry, but he is quite busy at the moment, you need to return another day.'";
+		say "I am Detective Alfonzo. I was called here to investigate his death.";
+		say "'My apologies... it's that room to the right.'";
 		now courthouse-access-approved is true;
 	else:
-		say "'Your access has already been approved, detective,' the receptionist says without looking away from her screen.".
+		say "'The Judge was a good man. He was always fair in his trials. Why would someone kill him?...'".
 
 The giant statue of Themis is scenery in the El Court Americano.
 The printed name of the giant statue of Themis is "giant statue of Themis".
-The description of the giant statue of Themis is "A massive statue of Themis, goddess of justice, towers over the entrance hall. She holds her scales high above the crowd, though in this place they feel less like a symbol of fairness and more like a warning.".
+The description of the giant statue of Themis is "They sure have the budget... but why is the lady blind? Weird stuff.".
 
 Understand "statue" as the giant statue of Themis.
 Understand "themis" as the giant statue of Themis.
@@ -347,12 +364,10 @@ Understand "deusa da justiça" as the giant statue of Themis.
 stranger-bump-happened is a truth state that varies.
 stranger-bump-happened is false.
 
-Before going north from the El Court' Americano when courthouse-access-approved is true:
+Before going to Judge Richards's Chamber when courthouse-access-approved is true:
 	if stranger-bump-happened is false:
 		now stranger-bump-happened is true;
-		say "As you move toward the doors, someone suddenly crashes into your shoulder.
-
-'Watch it,' you mutter, turning around.
-
-But the person is already gone, swallowed by the crowd of lawyers, clerks, and nervous civilians. For a second, you feel like it was not an accident.";
+		say ">A strange man bumps into you.";
+		say "Hey! Watch where you're going!";
+		say "He's already gone... could have at least apologized.";
 		continue the action.
