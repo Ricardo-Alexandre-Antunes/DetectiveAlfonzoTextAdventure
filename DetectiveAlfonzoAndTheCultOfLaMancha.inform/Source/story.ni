@@ -20,6 +20,8 @@ A written thing has some text called writing. The writing of a written thing is 
 Check reading when the noun is not readable: say "What is wrong with me... I can't read this!" instead.
 Report reading: say the writing of the noun.
 
+The description of a thing is usually "Ain't nothing special 'bout this junk.".
+
 Talking to is an action applying to one visible thing.
 Understand "talk to [someone]" as talking to.
 Understand "speak to [someone]" as talking to.
@@ -33,7 +35,7 @@ A hat is usually unworn.
 [ Rooms ]
 
 The Office is a room. Outside is The 68th Street.
-The description of the office is "My dusty old office, I've solved so many crimes here... but none like the mystery im facing now."
+The description of the office is " My dusty old office, I've solved so many crimes here... but none like the mystery im facing now."
 
 The 68th Street is a room.
 The description of the 68th Street is "68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.
@@ -43,17 +45,14 @@ Both murders happened in another part of the town, I think have to go east.".
 The St Miku Crossing is a room. The 68th Street is west.
 The description of the St Miku Crossing is "St. Miku Crossing, the epitome of modern city living, a sea of people surrounded by cars, shops and buildings as tall as the eye can see, piercing the clouds above like a knife.".
 
-The Afonso Sapienze's Apartment is a room. Outside is the St Miku Crossing.
-The description of the Afonso Sapienze's Apartment is "My apartment... i don't even know why i own this place, i barely use it.".
-
-The Afonso Sapienze's Parent's Apartment is a room. Outside is the St Miku Crossing.
+The Afonso Sapienze's Parent's Apartment is a room. West is the The Daniel Louis-Campbell Park.
 The description of the Afonso Sapienze's Parents' Apartment is
 	"This place feels different than before, it's strange, physically it still looks the same, but it feels like there's a gaping hole where it's soul
 used to be.
 
 It's missing its color, it's personality... it's nothing but an empty husk now.
 
-I should have a look around, but not now, I don't think i'm ready for this yet...".
+I should explore this place for a bit. Maybe it will jog some memories about the last 2 weeks".
 
 
 
@@ -118,7 +117,7 @@ The Daniel Louis-Campbell Park is a room.
 The printed name of the Daniel Louis-Campbell Park is "Daniel Louis-Campbell Park".
 The description of the Daniel Louis-Campbell Park is "I used to come here as a kid, there was a playground further in where mom and dad used to play catch with me. 
 
-It looks like it's closed for renovations. No way i'm getting in.".
+Looks like there is a lake here. So pretty.".
 
 [ Objects ]
 
@@ -255,16 +254,11 @@ Before going east from St Miku Crossing:
 		stop the action;
 	else if Afonzo-entered-parents-apartment is false:
 		now Afonzo-entered-parents-apartment is true;
-		say " You stand in front of the apartment door for longer than you would like to admit.
-
-Your hand trembles slightly as you reach for the handle. Opening this door feels wrong, almost like disturbing a grave.
-
-With pain in your chest and hesitation in every movement, you finally unlock the door and step inside.";
+		say "I'm sure the key opens something inside this house. There must be a safe in there somewhere!";
 		continue the action.
 
 [ Objects inside the parents' apartment ]
 
-[ AI 
 
 The locked safe is a closed locked openable container in the Afonso Sapienze's Parents' Apartment.
 The printed name of the locked safe is "locked safe".
@@ -274,36 +268,42 @@ Understand "safe" as the locked safe.
 Understand "cofre" as the locked safe.
 Understand "locked safe" as the locked safe.
 
-The safe key unlocks the locked safe.
-The safe key is nowhere.
-The description of the safe key is "A small metallic key. It probably opens something important.".
+The old key unlocks the locked safe.
 
 Instead of opening the locked safe when the locked safe is locked:
-	say "The safe is locked. You need a key to open it.".
+	say "The safe is locked. Didn't I have a key before? Now I regret losing it... Oopsie!".
 
 A handwritten note is in the locked safe.
 The printed name of the handwritten note is "handwritten note".
 The description of the handwritten note is
-	"A small handwritten note with only two words written on it:
+	"This text is weird... it reads:
 
 'Uj Vjwlqj'
 
-The handwriting is shaky, like it was written in a hurry. It does not look like your mother's handwriting. Actually, the more you look at it, the more it reminds you of the judge's handwriting.".
+	Maybe it's an encrypted text. I should keep this in mind".
 
 Understand "note" as the handwritten note.
 Understand "handwritten note" as the handwritten note.
 Understand "paper" as the handwritten note.
-Understand "uj vjwlqj" as the handwritten note.
 
-]
 
 
 [ Justice Avenue Objects ]
 
+
+unlocked-park is a truth state that varies.
+unlocked-park is false.
+
+
+Before entering the Justice Avenue:
+	if unlocked-park is true:
+		say "Looks like they already finished working on the Park";
+		say "It seems I can visit the ducks now.".
+
 The park gate is a locked door.
 The park gate is east of Justice Avenue and west of Daniel Louis-Campbell Park.
 The printed name of the park gate is "closed park gate that leads to the Daniel Louis-Campbell Park.".
-The description of the park gate is "It seems they are still doing work on the DLC Park. Maybe I'll be able to come here later.'".
+The description of the park gate is "It seems they are still doing work on the Park. Maybe I'll be able to come here later.'".
 
 Understand "gate" as the park gate.
 Understand "closed gate" as the park gate.
@@ -311,7 +311,10 @@ Understand "park entrance" as the park gate.
 Understand "park gate" as the park gate.
 
 Instead of opening the park gate:
-	say "It's still under construction...".
+	if unlocked-park is false:
+		say "It's still under construction...";
+	otherwise:
+		continue the action.
 
 Instead of unlocking the park gate with something:
 	say "I should just go back to the task at hand.".
@@ -326,14 +329,17 @@ Understand "mike" as Mike.
 Understand "guy" as Mike.
 
 Instead of talking to Mike:
-	say "'I wanted to see the small ducks, but they are under construction...'";
-	say "...";
-	say "'I mean the park, not the ducks!";
-	say "Oh. Ok... I'm just gonna go now...";
-	if worn-tiara is true:
-		say "'Oh ok Mr. High-And-Mighty-Tiara-Wearer. It's not like I'm the only weirdo here!";
+	if unlocked-park is false:
+		say "'I wanted to see the small ducks, but they are under construction...'";
+		say "...";
+		say "'I mean the park, not the ducks!";
+		say "Oh. Ok... I'm just gonna go now...";
+		if worn-tiara is true:
+			say "'Oh ok Mr. High-And-Mighty-Tiara-Wearer. It's not like I'm the only weirdo here!";
+		otherwise:
+			say "'Oh ok Mr. High-And-Mighty-Normal-Hat-Wearer. Could at least wear something cool like a tiara!";
 	otherwise:
-		say "'Oh ok Mr. High-And-Mighty-Normal-Hat-Wearer. Could at least wear something cool like a tiara!";
+		say "'I can finally see the ducks! I'm so excited to finally enter the DLC Park!'";
 
 [ El Court Americano Objects ]
 
@@ -376,6 +382,43 @@ Understand "deusa da justica" as the giant statue of Themis.
 Understand "deusa da justiça" as the giant statue of Themis.
 
 
+[ DLC Park Objects ]
+
+The lake is an object in the Daniel Louis-Campbell Park.
+The description of the lake is "Such a pretty lake, and the ducks are sweet too. I remember throwing stones at the lake to see how many times it would rebound. I don't have any stones, but I have a key...".
+
+magical-paper-received is a truth state that varies;
+magical-paper-received is false.
+
+Instead of throwing the old key at the lake:
+	say "Oh. It sunk immediatly. Oops.";
+	remove the Old Key from play;
+	
+Instead of throwing the tiara at the lake:
+	say "That looked good on me but at least now the lake is sparkly!";
+	remove the tiara from play;
+	now worn-tiara is false;
+	now the description of the lake is "Such a pretty lake. Hey, now it's sparkling too!";
+	
+Instead of throwing the handwritten note at the lake:
+	if magical-paper-received is false:
+		say "Why did I think paper would bounce? Now I'm just polluting.";
+		remove the handwritten note from play;
+	otherwise:
+		say "Now you go back to where you belong.";
+		remove the handwritten note from play;
+	
+Instead of throwing the locked safe at the lake:
+	say "Why is the lake pulsing?";
+	say "Why is a piece of paper flying?";
+	say "Why did it land directly at my hands?";
+	say "Well, that worked out nicely.";
+	now the player is holding the handwritten note;
+	now magical-paper-received is true;
+	remove the locked safe from play;
+	
+
+
 [Judge Richard's Chamber Objects ]
 A Fancy Desk is in the Judge Richards's Chamber.
 The description of the Fancy Desk is
@@ -392,8 +435,17 @@ They were working on a case together for her activism, but I can't make out the 
 
 An Old Key is hidden under the Fancy Desk.
 The description of the Old Key is
-"Some old ass key, might be useful.".
+"This key is familiar... where have I seen it before?".
 The Old Key is portable.
+
+Instead of taking the Old Key:
+	now judge-clue-received is true;
+	now unlocked-park is true;
+	now the park gate is unlocked;
+	now the park gate is open;
+	say "A key? I wonder what I could do with this...";
+	now the description of the Justice Avenue is "Back in the Justice Avenue. Looks like the Park is finally open. Maybe I should go inside and look at the ducks.";
+	continue the action.
 
 A Judge Richard's Dead Body is in the Judge Richards's Chamber.
 The description of the Richard's Dead Body is
