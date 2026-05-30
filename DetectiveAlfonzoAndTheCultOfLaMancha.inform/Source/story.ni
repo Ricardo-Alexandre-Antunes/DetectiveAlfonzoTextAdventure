@@ -4,6 +4,17 @@ Include Hiding Under by Eric Eve.
 
 When play begins:
 	say "You wake up from a quick nap in your office. You look around - you clearly haven't cleaned it in a while. How could you, with the biggest case you've ever faced still unsolved?";
+	say "If you feel like you don't know what to do, just THINK. Maybe It will help!";
+
+
+[ Current Clue ]
+
+current-clue is some text that varies.
+current-clue is "I should check my current cases.".
+
+Instead of thinking:
+	say "[current-clue]".
+
 
 [ Custom Actions ]
 
@@ -13,7 +24,7 @@ Understand "clean [something]" as cleaning.
 
 Understand the command "read" as something new.
 Reading is an action applying to one thing.
-Understand "read [something]" as reading..
+Understand "read [something]" as reading.
 A thing can be readable. A thing is usually not readable.
 A written thing is a kind of thing. A written thing is usually readable.
 A written thing has some text called writing. The writing of a written thing is usually "Nothing unusual is written here.".
@@ -31,11 +42,37 @@ A hat is a kind of thing.
 A hat can be worn or unworn.
 A hat is usually unworn.
 
+Investigating is an action applying to one thing.
+
+Understand "investigate [something]" as investigating.
+
+[ Funny Investigation Easter Egg ]
+
+Times-tried-investigating is a number that varies.
+
+Instead of investigating something when times-tried-investigating < 4:
+	increment times-tried-investigating;
+	if times-tried-investigating is 1:
+		say "I am investigating this case. I don't investigate objects or people. I examine them. Let us not stain the true work of a detective.";
+	else if times-tried-investigating is 2:
+		say "I already said this. I examine things, I don't investigate. Do not test my patience, player.";
+	else if times-tried-investigating is 3:
+		say "You are very persistent and annoying. Stop trying to investigate things. The command is to examine things. Stop insisting.";
+	else:
+		say "Ok you know what. Fine. You win. I will investigate this. You don't need to examine anything ever again. But just because of that, I'm throwing everything in the inventory away so you can never see it again, you smarty-pants. Fool.";
+		repeat with item running through things carried by the player:
+			now the item is nowhere;
+		try examining the noun.
+
+
+Instead of investigating something:
+	try examining the noun.
+
 
 [ Rooms ]
 
 The Office is a room. Outside is The 68th Street.
-The description of the office is " My dusty old office, I've solved so many crimes here... but none like the mystery im facing now."
+The description of the office is "My dusty old office, I've solved so many crimes here... but none like the mystery im facing now."
 
 The 68th Street is a room.
 The description of the 68th Street is "68th Street looks as busy, noisy and smelly as usual. Cars are flying around, ads cover every screen, and people walk and move around in their trendy clothes like ants going to and from their home colonies, living their happy lives mindlessly.
@@ -47,7 +84,7 @@ The description of the St Miku Crossing is "St. Miku Crossing, the epitome of mo
 
 I see the Justice Avenue to the South, as well as the 68th Street to the West.".
 
-The Afonso Sapienze's Parent's Apartment is a room. West is the The Daniel Louis-Campbell Park.
+The Afonso Sapienze's Parents' Apartment is a room. West is the The Daniel Louis-Campbell Park.
 The description of the Afonso Sapienze's Parents' Apartment is
 	"This place feels different than before, it's strange, physically it still looks the same, but it feels like there's a gaping hole where it's soul
 used to be.
@@ -66,7 +103,7 @@ The ads here are different, instead of the newest movies and products, it's fine
 
 They don't even notice me walk by.
 
-There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court' Americano is and to the west, towards Bingo Street.".
+There's multiple ways to go from here, east, to the Daniel Louis-Campbell Park, to the south where the El Court Americano is and to the west, towards Bingo Street.".
 
 The Bingo Street is a room. The Justice Avenue is east.
 The description of Bingo Street is "Bingo Street is like a louder, more run down version of 68th Street, if that's even possible. The atmosphere feels similar, but the people don't, they feel more like the ones on Justice Avenue, only without all the money. 
@@ -76,7 +113,7 @@ The cops don't usually come here, they're paid well not to... damn bastards.
 For some reason they decided to build a damn company here, i'd go in but the place is in repairs from what it looks like, about time if ya ask me, thought it'd be better if the people got that treatment first, it's been needed for a long ass time.".
 
 The El Court Americano is a room. Outside is the Justice Avenue. North is the Justice Avenue.
-The printed name of the El Court Americano is "El Court' Americano - Main Hall".
+The printed name of the El Court Americano is "El Court Americano - Main Hall".
 The description of the El Court Americano is 
 	"I've always loved the look of this place, it's like a beacon of life in the middle of a sea of gray concrete mediocrity. It's a massive square entrance with big glass doors that let the sunshine come in during the day. 
 
@@ -91,7 +128,7 @@ There's something strange to the East, i can see a small door almost completly c
 
 
 The Judge Richards's Chamber is a room. Outside is the El Court Americano.
-The printed name of the Judge Richards's Chamber is "El Court' Americano - Judge Richard's Office".
+The printed name of the Judge Richards's Chamber is "El Court Americano - Judge Richard's Office".
 The description of Judge Richards's Chamber is "I remember hearing about this guy from my mother... I think they worked together a couple of times...
 
 This is one small office... looks old, older than the rest of the building, like it's holding on to a long forgotten past. 
@@ -124,6 +161,12 @@ Looks like there is a lake here. So pretty.".
 [ Objects ]
 
 [ Office ]
+
+examined-cases is a truth state that varies.
+examined-cases is false.
+
+Before examining the pile of paper:
+	now examined-cases is true.
 
 worn-hat is a truth state that varies.
 worn-hat is false.
@@ -184,13 +227,23 @@ Instead of opening the closet:
 		now the closet is open;
 		say "What a mess... well, look what we have here... this pile of paper has my current cases, and it's piling up... I should take a look at these.";
 		now the pile of paper is not undescribed;
-		now the description of the pile of paper is "There are 2 cases here. Another couple just like my parents, found in Bingo Street... and a judge killed in his own chambers. He was working on some case about a cosmetics company.";
+		now the description of the pile of paper is "There are 2 cases here. Another couple just like my parents, found in Bingo Street... and a judge killed in his own chambers. He was working on some case about a cosmetics company. Before I leave though I should probably read these with more detail.";
 		now the NSFW Magazine is not undescribed;
 		now the description of the NSFW Magazine is "This is quite dirty. It's stuff to read only in private places.";
 		
+Understand "cases" as pile of paper.
+Understand "paper" as pile of paper.
+
+Instead of examining the pile of paper:
+	if knows-location is false:
+		now current-clue is "I examined my cases... but I didn't really READ them, did I?".
+		
 Instead of reading the pile of paper:
+	if examined-cases is false:
+		try examining the pile of paper;
 	say "The first case happened a week ago... they were found dead in a trash can. According to the police report, they had very peculiar injuries... it looks like they fought with the attacker.";
 	say "As for the second case, it was just delivered to me. The body is still in the courthouse, so I should head there soon. Judge Richard was found dead in his chambers found with a knife in his head. A judge can get a lot of enemies, but he was only working on one case at the time... I should go there.";
+	now current-clue is "I must head out to investigate Judge Richard's murder.";
 	now knows-location is true;
 	
 Instead of reading the NSFW Magazine:
@@ -233,10 +286,14 @@ Instead of wearing the tiara:
 Instead of going:
 	if knows-location is false:
 		say "I could leave, but to where? I should probably read my cases first.";
+		if the closet is closed:
+			say "My cases should be inside the closet... it's probably a mess in there.";
 	otherwise:
 		if worn-hat is false:
 			say "It's chilly outside. I should probably wear a hat.";
+			now current-clue is "I think my hats are on the rack. Just taking one isn't enough, I need to actually wear it.";
 		otherwise:
+			now current-clue is "I should visit Judge Richard's chambers to investigate his murder.";
 			continue the action.
 
 
@@ -299,6 +356,7 @@ unlocked-park is false.
 
 Before entering the Justice Avenue:
 	if unlocked-park is true:
+		now current-clue is "The park is now open. I should head in that direction and see if I can find a familiar place.";
 		say "Looks like they already finished working on the Park";
 		say "It seems I can visit the ducks now.".
 
@@ -348,6 +406,11 @@ Instead of talking to Mike:
 courthouse-access-approved is a truth state that varies.
 courthouse-access-approved is false.
 
+After going to El Court Americano:
+	if courthouse-access-approved is false:
+		now current-clue is "There's a receptionist at the desk. If I talk to her, she should know where Judge Richard's Chambers are.";
+	continue the action;
+
 Before going to Judge Richards's Chamber:
 	if courthouse-access-approved is false:
 		say "I don't really know where Judge Richards's chambers are... perhaps I should look for someone who knows.";
@@ -362,6 +425,7 @@ Understand "lady" as the receptionist.
 
 Instead of talking to the receptionist:
 	if courthouse-access-approved is false:
+		now current-clue is "Judge Richard's chambers are right there. I should go inside.";
 		say "Hello, may I know where Judge Richard's chambers are?";
 		say "'I'm sorry, but he is quite busy at the moment, you need to return another day.'";
 		say "I am Detective Alfonzo. I was called here to investigate his death.";
@@ -387,7 +451,11 @@ Understand "deusa da justiça" as the giant statue of Themis.
 [ DLC Park Objects ]
 
 The lake is an object in the Daniel Louis-Campbell Park.
-The description of the lake is "Such a pretty lake, and the ducks are sweet too. I remember throwing stones at the lake to see how many times it would rebound. I don't have any stones, but I have a key...".
+The description of the lake is "Such a pretty lake, and the ducks are sweet too. I remember throwing stones at the lake to see how many times it would rebound."
+
+After examining the lake:
+	if the old key is carried by the player:
+		say "I don't have any stones, but I have a key...".
 
 magical-paper-received is a truth state that varies.
 magical-paper-received is false.
@@ -416,12 +484,17 @@ Instead of throwing the locked safe at the lake:
 	say "Why did it land directly at my hands?";
 	say "Well, that worked out nicely.";
 	now the player is holding the handwritten note;
+	now current-clue is "The clues I have don't really help in solving my case. I should switch focus to the other case and see if I can find a correlation. Where was the couple killed again?...";
 	now magical-paper-received is true;
 	remove the locked safe from play;
 	
 
 
 [Judge Richard's Chamber Objects ]
+After entering the Judge Richards's Chamber:
+	if judge-clue-received is false:
+		now current-clue is "I should examine everything, look under every rock... well, maybe not every rock, but every table...";
+
 A Fancy Desk is in the Judge Richards's Chamber.
 The description of the Fancy Desk is
 "This desk has some fine craftsmanship, suiting for a judge. Though it's starting to show it's age.
@@ -433,6 +506,13 @@ The description of the Open Letter is
 "Hold on, this letter is in my mother's handwritting... looks like they were close, much closer than i thought. 
 
 They were working on a case together for her activism, but I can't make out the rest of it though.".
+
+Instead of reading the Open Letter:
+	say "The handwritting is awful, but there's some parts I can understand...";
+	say "'My friend, my close friend. Please keep this with yourself for as long as you live...'";
+	say "'I believe our time is near. They are coming for us...'";
+	say "'...my house...'";
+	
 
 
 An Old Key is hidden under the Fancy Desk.
@@ -447,6 +527,7 @@ Instead of taking the Old Key:
 	now the park gate is open;
 	say "A key? I wonder what I could do with this...";
 	now the description of the Justice Avenue is "Back in the Justice Avenue. Looks like the Park is finally open. Maybe I should go inside and look at the ducks.";
+	now current-clue is "There shouldn't be anything else of interest in this room. I should head back.";
 	continue the action.
 
 A Judge Richard's Dead Body is in the Judge Richards's Chamber.
